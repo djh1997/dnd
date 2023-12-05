@@ -1,22 +1,22 @@
-| attribute  | value      |
+| Attribute  | Value      |
 | ---------- | ---------- |
-| rogue      | 3          |
-| bard       | 3          |
-| race       | deep gnome |
-| background | spy        |
-| collage    | whispers   |
-| gender     | male       |
-| age        | 180        |
-| height     | 3'1"       |
-| weight     | 42         |
-| skin       | pale       |
-| Eye        | deep blue  |
-| hair       | Auburn     |
+| Rogue      | 3          |
+| Bard       | 3          |
+| Race       | Deep gnome |
+| Background | Spy        |
+| Collage    | Whispers   |
+| Gender     | Male       |
+| Age        | 180        |
+| Height     | 3'1"       |
+| Weight     | 42         |
+| Skin       | Pale       |
+| Eye        | Deep blue  |
+| Hair       | Auburn     |
 
 ## Alignment
 
-| X       | lawful | neutral | chaotic |
+| X       | Lawful | Neutral | Chaotic |
 | ------- | ------ | ------- | ------- |
-| good    |        |         |
-| neutral |        |         | X       |
-| evil    |        |         |         |
+| Good    |        |         |
+| Neutral |        |         | X       |
+| Evil    |        |         |         |
