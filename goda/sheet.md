@@ -1,6 +1,6 @@
 #Goda McCormick
+![](IMG_2809.jpeg)
 ![](abilities.md)
-speed 25
 ![](skills.md)
 ![](weapons.md)
 ![](armor.md)
