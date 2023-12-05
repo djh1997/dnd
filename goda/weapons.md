@@ -1,3 +1,5 @@
+#Weapons
+
 name | hit|damage|type|range|qty
 ------------ | ---------------|--|--|--|--|
 Dagger|+6|1D4 +3|P|20 / 60|2

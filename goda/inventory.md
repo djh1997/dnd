@@ -1,4 +1,4 @@
-#inventory
+#Inventory
 
 qty|name|weight(lb.)|cost(gp)
 ---|----|---|--
@@ -13,14 +13,15 @@ qty|name|weight(lb.)|cost(gp)
 1|harmonica
 
 
-##quiver
+
+##Quiver
 
 qty|name|weight(lb.)|cost(gp)
 ---|----|---|--
 16|Arrows |0.8
 4|10XArrows |2
 
-##bag of holding
+##Bag of Holding
 
 qty|name|weight(lb.)|cost(gp)
 ---|----|---|--
