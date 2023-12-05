@@ -1,12 +1,12 @@
 #Abilities
 
-name|prof|mod
--|-|-
-|STR|9|-1
-|dex|17|3
-|con|10|0
-|int|17|3
-|wis|11|0
-|cha|14|2
+| Name         | Proficiency | Modifier |
+| ------------ | ----------- | -------- |
+| STRength     | 9           | -1       |
+| DEXterity    | 17          | 3        |
+| CONstitution | 10          | 0        |
+| INTelegance  | 17          | 3        |
+| WISdom       | 11          | 0        |
+| CHArisma     | 14          | 2        |
 
-prof bonus +3
+Proficiency bonus +3

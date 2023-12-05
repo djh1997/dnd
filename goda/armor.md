@@ -1,4 +1,5 @@
 #Armor
-type|ac|cost|weight
---|--|--|--
-hide|12|10|12
+
+| Type | Armor class | Cost | Weight |
+| ---- | ----------- | ---- | ------ |
+| Hide | 12          | 10   | 12     |

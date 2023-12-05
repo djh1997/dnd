@@ -1,21 +1,22 @@
 #Skills
-Proficiency|Bonus|Name|MOD
--|-|-|-
-|Half|4|ACROBATICS|DEX
-|Half|1|ANIMAL hANDLING|WIS
-|Half|4|ARCANA|INT
-|Half|0|ATHLETICS|STR
-|Expert|8|DECEPTION|CHA
-|Half|4|HISTORY|INT
-|Half|1|INSIGHT|WIS
-|Proficient|5|INTIMIDATION|CHA
-|Half|4|INVESTIGATION|INT
-|Half|1|MEDICINE|WIS
-|Half|4|NATURE|INT
-|Expert|6|PERCEPTION|WIS
-|Half|3|PERFORMANCE|CHA
-|Proficient|5|PERSUASION|CHA
-|Half|4|RELIGION|INT
-|Expert|9|SLIGHT OF HAND|DEX
-|Expert|9|STEALTH|DEX
-|Proficient|3|SURVIVAL|WIS
+
+| Proficiency | Bonus | Name            | MOD |
+| ----------- | ----- | --------------- | --- |
+| Half        | 4     | Acrobatics      | DEX |
+| Half        | 1     | Animal Handling | WIS |
+| Half        | 4     | Arcana          | INT |
+| Half        | 0     | Athletics       | STR |
+| Expert      | 8     | Deception       | CHA |
+| Half        | 4     | History         | INT |
+| Half        | 1     | Insight         | WIS |
+| Proficient  | 5     | Intimidation    | CHA |
+| Half        | 4     | Investigation   | INT |
+| Half        | 1     | Medicine        | WIS |
+| Half        | 4     | Nature          | INT |
+| Expert      | 6     | Perception      | WIS |
+| Half        | 3     | Performance     | CHA |
+| Proficient  | 5     | Persuasion      | CHA |
+| Half        | 4     | Religion        | INT |
+| Expert      | 9     | Slight of Hand  | DEX |
+| Expert      | 9     | Stealth         | DEX |
+| Proficient  | 3     | Survival        | WIS |

@@ -1,13 +1,15 @@
-#Heatlh
-max|current|temp
--|-|-
-28|28
+#Health
+
+| Max | Current | Temp |
+| --- | ------- | ---- |
+| 28  | 28      |
 
 ##Armor Class 12
 
-##deathsaves
-fails|saves
--|-
-|
-|
-|
+##Death Saves
+
+| Fails | Saves |
+| ----- | ----- |
+| O     | O     |
+| O     | O     |
+| O     | O     |
