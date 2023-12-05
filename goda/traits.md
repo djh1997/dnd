@@ -2,11 +2,11 @@
 ##Bard Features PHB, pg.52
 ###SpellcastingPHB, pg. 52
 You can cast known bard spells using CHA as your spellcasting modifier (Spell DC 13, Spell Attack +5) and known bard spells as rituals if they have the ritual tag. You can use a musical instrument as a spellcasting focus.
-###Bardic Inspirationd6PHB, pg. 53
+###Bardic Inspiration d6 PHB, pg. 53
 As a bonus action, a creature (other than you) within 60 ft. that can hear you gains an inspiration die (1d6). For 10 minutes, the creature can add it to one ability check, attack roll, or saving throw. This can be added after seeing the roll, but before knowing the outcome.Bardic Inspiration: 1 Bonus Action 2per/Long Rest
 ###Jack of All TradesPHB, pg. 54
 You can add half your proficiency bonus, rounded down ( +1 ), to any ability check you make that doesn’t already include it.
-###Song of Rest+1d6 HPPHB, pg. 54
+###Song of Rest+1d6 HP PHB, pg. 54
 If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest by spending one or more Hit Dice, each of those creatures regains an extra 1d6 hit points.
 ###Psychic blades XGE
 When you hit a creature with a weapon attack, you can expend one use of your Bardic Inspiration to deal an additional 2d6 psychic damage to that target. Once per round on your turn.
