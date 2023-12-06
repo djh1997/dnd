@@ -257,3 +257,98 @@ You can cast nondetection on yourself at will, without needing a material compon
 Intelligence is your spellcasting ability for these spells, and you cast them at their lowest possible levels.
   
   
+# Party
+  
+  
+## Auren
+  
+| Attribute | Value      |
+| --------- | ---------- |
+| class     | ?          |
+| Race      | Asterl elf |
+| Gender    | female     |
+| Age       | ?          |
+| Height    | ?          |
+| Weight    | ?          |
+| Skin      | ?          |
+| Eye       | ?          |
+| Hair      | ?          |
+  
+### Alignment
+  
+| X       | Lawful | Neutral | Chaotic |
+| ------- | ------ | ------- | ------- |
+| Good    |        |         |
+| Neutral |        |         |         |
+| Evil    |        |         |         |
+  
+  
+## Burnheart
+  
+| Attribute | Value |
+| --------- | ----- |
+| class     | ?     |
+| Race      | Human |
+| Gender    | Male  |
+| Age       | ?     |
+| Height    | ?     |
+| Weight    | ?     |
+| Skin      | ?     |
+| Eye       | ?     |
+| Hair      | ?     |
+  
+### Alignment
+  
+| X       | Lawful | Neutral | Chaotic |
+| ------- | ------ | ------- | ------- |
+| Good    |        |         |
+| Neutral |        |         |         |
+| Evil    |        |         |         |
+  
+  
+## Fireplum
+  
+| Attribute | Value  |
+| --------- | ------ |
+| class     | ?      |
+| Race      | wizard |
+| Gender    | Male   |
+| Age       | ?      |
+| Height    | ?      |
+| Weight    | ?      |
+| Skin      | ?      |
+| Eye       | ?      |
+| Hair      | ?      |
+  
+### Alignment
+  
+| X       | Lawful | Neutral | Chaotic |
+| ------- | ------ | ------- | ------- |
+| Good    |        |         |
+| Neutral |        |         |         |
+| Evil    |        |         |         |
+  
+  
+## Cous
+  
+| Attribute | Value       |
+| --------- | ----------- |
+| class     | ?           |
+| Race      | Lizard folk |
+| Gender    | Female      |
+| Age       | ?           |
+| Height    | ?           |
+| Weight    | ?           |
+| Skin      | ?           |
+| Eye       | ?           |
+| Hair      | ?           |
+  
+### Alignment
+  
+| X       | Lawful | Neutral | Chaotic |
+| ------- | ------ | ------- | ------- |
+| Good    |        |         |
+| Neutral |        |         |         |
+| Evil    |        |         |         |
+  
+  

@@ -1,0 +1,21 @@
+## Burnheart
+
+| Attribute | Value |
+| --------- | ----- |
+| class     | ?     |
+| Race      | Human |
+| Gender    | Male  |
+| Age       | ?     |
+| Height    | ?     |
+| Weight    | ?     |
+| Skin      | ?     |
+| Eye       | ?     |
+| Hair      | ?     |
+
+### Alignment
+
+| X       | Lawful | Neutral | Chaotic |
+| ------- | ------ | ------- | ------- |
+| Good    |        |         |
+| Neutral |        |         |         |
+| Evil    |        |         |         |

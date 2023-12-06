@@ -11,3 +11,10 @@
 ![inventory](goda/inventory.md)
 ![spell](goda/spell.md)
 ![traits](goda/traits.md)
+
+# Party
+
+![Auren](party/auren//description.md)
+![Burnheart](party/burnheart/description.md)
+![Fireplum](party/fireplum/description.md)
+![Cous](party/cous//description.md)
