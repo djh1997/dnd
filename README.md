@@ -392,6 +392,7 @@ Their final job together went wrong, and the old man was gravely wounded. Goda t
   
   
 ## Auren
+![mugshot](party/auren/auren.jpeg )
   
 | Attribute | Value      |
 | --------- | ---------- |
@@ -456,8 +457,8 @@ Proficiency bonus +?
   
   
 ## Burnhard Edward Toast
-  
 imp called Mr. Nesbit
+![mugshot](party/burnhard/burnhard.jpeg )
   
 | Attribute | Value     |
 | --------- | --------- |
@@ -522,6 +523,7 @@ Proficiency bonus +?
   
   
 ## Fireplum
+![mugshot](party/fireplum/fireplum.jpeg )
   
 | Attribute | Value    |
 | --------- | -------- |
@@ -586,6 +588,7 @@ Proficiency bonus +?
   
   
 ## Cous
+![mugshot](party/cous/cous.jpeg )
   
 | Attribute | Value       |
 | --------- | ----------- |
