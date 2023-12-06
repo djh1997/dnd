@@ -1,6 +1,6 @@
 ## Burnhard Edward Toast
 imp called Mr. Nesbit
-![mugshot](/party/burnhard/burnhard.jpeg)
+![mugshot](/party/burnhard/burnhard.jpeg "Burnhard")
 
 | Attribute | Value     |
 | --------- | --------- |

@@ -1,5 +1,5 @@
 ## Fireplum
-![mugshot](/party/fireplum/fireplum.jpeg)
+![mugshot](/party/fireplum/fireplum.jpeg "Fireplum")
 
 | Attribute | Value    |
 | --------- | -------- |

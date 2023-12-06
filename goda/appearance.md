@@ -1,6 +1,6 @@
 # Appearance
 
-![mug shot](/goda/goda.jpeg)
+![mug shot](/goda/goda.jpeg "Goda McCormick")
 
 The short gnome was a striking figure, with his pale complexion and deep blue eyes that seemed to sparkle even in the dimmest light. His dark auburn hair was usually kept short and tidy, framing his face in a way that drew attention to his stunning eyes.
 

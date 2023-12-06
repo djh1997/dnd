@@ -1,5 +1,5 @@
 ## Cous
-![mugshot](/party/cous/cous.jpeg)
+![mugshot](/party/cous/cous.jpeg "Cous")
 
 | Attribute | Value       |
 | --------- | ----------- |

@@ -1,5 +1,5 @@
 ## Auren
-![mugshot](/party/auren/auren.jpeg)
+![mugshot](/party/auren/auren.jpeg "Auren")
 
 | Attribute | Value      |
 | --------- | ---------- |
