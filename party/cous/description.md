@@ -1,5 +1,6 @@
 ## Cous
 ![mugshot](/party/cous/cous.jpeg)
+
 | Attribute | Value       |
 | --------- | ----------- |
 | class     | Druid       |

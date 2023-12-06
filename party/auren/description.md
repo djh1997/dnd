@@ -1,5 +1,6 @@
 ## Auren
 ![mugshot](/party/auren/auren.jpeg)
+
 | Attribute | Value      |
 | --------- | ---------- |
 | class     | wizard     |

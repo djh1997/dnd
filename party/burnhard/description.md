@@ -1,6 +1,7 @@
 ## Burnhard Edward Toast
 imp called Mr. Nesbit
 ![mugshot](/party/burnhard/burnhard.jpeg)
+
 | Attribute | Value     |
 | --------- | --------- |
 | class     | warlock?  |
