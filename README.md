@@ -10,10 +10,11 @@
 - [Skills](#skills )
 - [Weapons](#weapons )
 - [Armor](#armor )
-- [Wallet](#wallet )
+- [Movement](#movement )
 - [Inventory](#inventory )
   - [Quiver](#quiver )
   - [Bag of Holding](#bag-of-holding )
+- [Wallet](#wallet )
 - [Spells](#spells )
 - [Class Features](#class-features )
   - [Bard Features PHB, pg.52](#bard-features-phb-pg52 )
@@ -163,15 +164,22 @@ Proficiency bonus +3
 | Leather | 11 + DEX    | 10   | 10     |
   
   
-# Wallet
+# Movement
   
-| money    | amount |
-| -------- | ------ |
-| copper   | 0      |
-| silver   | 0      |
-| electrum | 0      |
-| gold     | 90     |
-| Platinum | 0      |
+speed 25
+  
+  
+  
+  
+  
+  
+  
+  
+  
+| weight | state          |
+| ------ | -------------- |
+| 67     | encumbered     |
+| 135    | push/drag/lift |
   
   
 # Inventory
@@ -229,6 +237,17 @@ weigh's 15lb. can carry 500lb. <img src="https://latex.codecogs.com/gif.latex?64
 | 1    | Water skin         | 5           | 0.2      |
 | 1    | Tinder box         | 1           | 0.5      |
 | 1    | Whetstone          | 1           | 0.01     |
+  
+  
+# Wallet
+  
+| money    | amount |
+| -------- | ------ |
+| copper   | 0      |
+| silver   | 0      |
+| electrum | 0      |
+| gold     | 90     |
+| Platinum | 0      |
   
   
 # Spells
