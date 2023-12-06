@@ -368,7 +368,7 @@ If there’s a plan, I’ll forget it. If I don’t forget it, I’ll ignore it.
   
 # Appearance
   
-![mug shot](goda/goda.jpeg )
+![mug shot](goda/goda.jpeg "Goda McCormick")
   
 The short gnome was a striking figure, with his pale complexion and deep blue eyes that seemed to sparkle even in the dimmest light. His dark auburn hair was usually kept short and tidy, framing his face in a way that drew attention to his stunning eyes.
   
@@ -392,7 +392,7 @@ Their final job together went wrong, and the old man was gravely wounded. Goda t
   
   
 ## Auren
-![mugshot](party/auren/auren.jpeg )
+![mugshot](party/auren/auren.jpeg "Auren")
   
 | Attribute | Value      |
 | --------- | ---------- |
@@ -458,7 +458,7 @@ Proficiency bonus +?
   
 ## Burnhard Edward Toast
 imp called Mr. Nesbit
-![mugshot](party/burnhard/burnhard.jpeg )
+![mugshot](party/burnhard/burnhard.jpeg "Burnhard")
   
 | Attribute | Value     |
 | --------- | --------- |
@@ -523,7 +523,7 @@ Proficiency bonus +?
   
   
 ## Fireplum
-![mugshot](party/fireplum/fireplum.jpeg )
+![mugshot](party/fireplum/fireplum.jpeg "Fireplum")
   
 | Attribute | Value    |
 | --------- | -------- |
@@ -588,7 +588,7 @@ Proficiency bonus +?
   
   
 ## Cous
-![mugshot](party/cous/cous.jpeg )
+![mugshot](party/cous/cous.jpeg "Cous")
   
 | Attribute | Value       |
 | --------- | ----------- |

@@ -28,7 +28,7 @@
     - [Inventory](#inventory-3 )
   
 ## Auren
-![mugshot](auren/auren.jpeg )
+![mugshot](auren/auren.jpeg "Auren")
   
 | Attribute | Value      |
 | --------- | ---------- |
@@ -94,7 +94,7 @@ Proficiency bonus +?
   
 ## Burnhard Edward Toast
 imp called Mr. Nesbit
-![mugshot](burnhard/burnhard.jpeg )
+![mugshot](burnhard/burnhard.jpeg "Burnhard")
   
 | Attribute | Value     |
 | --------- | --------- |
@@ -159,7 +159,7 @@ Proficiency bonus +?
   
   
 ## Fireplum
-![mugshot](fireplum/fireplum.jpeg )
+![mugshot](fireplum/fireplum.jpeg "Fireplum")
   
 | Attribute | Value    |
 | --------- | -------- |
@@ -224,7 +224,7 @@ Proficiency bonus +?
   
   
 ## Cous
-![mugshot](cous/cous.jpeg )
+![mugshot](cous/cous.jpeg "Cous")
   
 | Attribute | Value       |
 | --------- | ----------- |
