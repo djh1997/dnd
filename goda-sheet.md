@@ -14,4 +14,4 @@
 ![appearance](goda/appearance.md)
 ![backstory](goda/backstory.md)
 
-![party](party.md)
+![party](party/party.md)
