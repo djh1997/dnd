@@ -2,7 +2,7 @@
 
 | Attribute | Value       |
 | --------- | ----------- |
-| class     | ?           |
+| class     | Druid       |
 | Race      | Lizard folk |
 | Gender    | Female      |
 | Age       | ?           |

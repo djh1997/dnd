@@ -1,6 +1,5 @@
 # Goda McCormick
 
-![mug shot](goda/goda.jpeg)
 ![health](goda/health.md)
 ![abilities](goda/abilities.md)
 ![description](goda/description.md)
@@ -11,6 +10,8 @@
 ![inventory](goda/inventory.md)
 ![spell](goda/spell.md)
 ![traits](goda/traits.md)
+![appearance](goda/appearance.md)
+![backstory](goda/backstory.md)
 
 # Party
 

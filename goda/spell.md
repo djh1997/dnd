@@ -1,4 +1,9 @@
-# Spell List
+# Spells
+
+- Spell casting class Bard
+- Spell casting ability CHA
+- Spell save DC 13
+- Spell attack bonus +5
 
 | Level   | Spell name     | Source | Time   | Range        | Component         | Duration             | Notes         | Ref |
 | ------- | -------------- | ------ | ------ | ------------ | ----------------- | -------------------- | ------------- | --- |

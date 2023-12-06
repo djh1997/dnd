@@ -2,8 +2,8 @@
 
 | Attribute | Value      |
 | --------- | ---------- |
-| class     | ?          |
-| Race      | Asterl elf |
+| class     | wizard     |
+| Race      | Astral elf |
 | Gender    | female     |
 | Age       | ?          |
 | Height    | ?          |

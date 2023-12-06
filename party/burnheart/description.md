@@ -1,16 +1,18 @@
-## Burnheart
+## Burnhard Edward Toast
 
-| Attribute | Value |
-| --------- | ----- |
-| class     | ?     |
-| Race      | Human |
-| Gender    | Male  |
-| Age       | ?     |
-| Height    | ?     |
-| Weight    | ?     |
-| Skin      | ?     |
-| Eye       | ?     |
-| Hair      | ?     |
+imp called Mr. Nesbit
+
+| Attribute | Value     |
+| --------- | --------- |
+| class     | warlock?  |
+| Race      | half elf? |
+| Gender    | Male      |
+| Age       | ?         |
+| Height    | ?         |
+| Weight    | ?         |
+| Skin      | ?         |
+| Eye       | ?         |
+| Hair      | ?         |
 
 ### Alignment
 

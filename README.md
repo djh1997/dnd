@@ -1,6 +1,5 @@
 # Goda McCormick
   
-![mug shot](goda/goda.jpeg )
   
 # Health
   
@@ -166,7 +165,12 @@ weigh's 15lb. can carry 500lb. <img src="https://latex.codecogs.com/gif.latex?64
 | 1    | Whetstone          | 1           | 0.01     |
   
   
-# Spell List
+# Spells
+  
+- Spell casting class Bard
+- Spell casting ability CHA 
+- Spell save DC 13
+- Spell attack bonus +5
   
 | Level   | Spell name     | Source | Time   | Range        | Component         | Duration             | Notes         | Ref |
 | ------- | -------------- | ------ | ------ | ------------ | ----------------- | -------------------- | ------------- | --- |
@@ -257,6 +261,26 @@ You can cast nondetection on yourself at will, without needing a material compon
 Intelligence is your spellcasting ability for these spells, and you cast them at their lowest possible levels.
   
   
+# Appearance
+  
+![mug shot](goda/goda.jpeg )
+  
+The short gnome was a striking figure, with his pale complexion and deep blue eyes that seemed to sparkle even in the dimmest light. His dark auburn hair was usually kept short and tidy, framing his face in a way that drew attention to his stunning eyes.  
+  
+He was often seen wearing dark glasses, which he used to hide his glass eye, a constant reminder of the danger and violence he had left behind. His attire was a mishmash of styles, combining a flat cap with tattered armor and an assassin's hooded robe. It was clear that he had seen some tough times and had been forced to improvise with whatever he had on hand. 
+  
+He could often be found busking on street corners and inns to earn his keep 
+  
+  
+# Backstory
+  
+As a young rogue, Goda had a rough start in life. Growing up on the streets, he learned early on how to pick pockets and sneak around unnoticed. However, his life of crime came to a halt when he was caught attempting to rob an old man. The old man, who happened to be a retired assassin, saw potential in the young thief and offered him an apprenticeship. 
+  
+Goda spent several years learning the art of assassination and thievery under the tutelage of the old man. Despite his criminal past, he found himself drawn to the old man's wisdom and skill, and began to see a life beyond the shadows of thievery and deception. 
+  
+Their final job together went wrong, and the old man was gravely wounded. Goda tried to help him escape, but they were separated during their escape. Goda was left with a serious injury - an arrow lodged in his eye. He woke up alone, without the old man or any sign of his whereabouts, and had to make his way out of the
+  
+  
 # Party
   
   
@@ -266,7 +290,7 @@ Intelligence is your spellcasting ability for these spells, and you cast them at
 | Attribute | Value      |
 | --------- | ---------- |
 | class     | ?          |
-| Race      | Asterl elf |
+| Race      | Astral elf |
 | Gender    | female     |
 | Age       | ?          |
 | Height    | ?          |
@@ -391,17 +415,17 @@ Proficiency bonus +?
   
 ## Fireplum
   
-| Attribute | Value  |
-| --------- | ------ |
-| class     | ?      |
-| Race      | wizard |
-| Gender    | Male   |
-| Age       | ?      |
-| Height    | ?      |
-| Weight    | ?      |
-| Skin      | ?      |
-| Eye       | ?      |
-| Hair      | ?      |
+| Attribute | Value    |
+| --------- | -------- |
+| class     | wizard   |
+| Race      | tiefling |
+| Gender    | Male     |
+| Age       | ?        |
+| Height    | ?        |
+| Weight    | ?        |
+| Skin      | ?        |
+| Eye       | ?        |
+| Hair      | ?        |
   
 ### Alignment
   
