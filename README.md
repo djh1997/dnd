@@ -260,6 +260,7 @@ Intelligence is your spellcasting ability for these spells, and you cast them at
 # Party
   
   
+  
 ## Auren
   
 | Attribute | Value      |
@@ -281,6 +282,47 @@ Intelligence is your spellcasting ability for these spells, and you cast them at
 | Good    |        |         |
 | Neutral |        |         |         |
 | Evil    |        |         |         |
+  
+  
+### Health
+  
+| Max | Current | Temp |
+| --- | ------- | ---- |
+| ?  | ?      |
+  
+#### Armor Class ?
+  
+#### Death Saves
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+  
+  
+### Abilities
+  
+| Name         | Proficiency | Modifier |
+| ------------ | ----------- | -------- |
+| STRength     | ?           | ?       |
+| DEXterity    | ?          | ?        |
+| CONstitution | ?          | ?        |
+| INTelegance  | ?          | ?        |
+| WISdom       | ?          | ?        |
+| CHArisma     | ?          | ?        |
+  
+Proficiency bonus +?
+  
+  
+### Inventory
+  
+| QTY | name | weight(lb.) | cost(gp) |
+| --- | ---- | ----------- | -------- |
+|     |      |             |          |
+  
+  
+  
   
   
 ## Burnheart
@@ -306,6 +348,47 @@ Intelligence is your spellcasting ability for these spells, and you cast them at
 | Evil    |        |         |         |
   
   
+### Health
+  
+| Max | Current | Temp |
+| --- | ------- | ---- |
+| ?  | ?      |
+  
+#### Armor Class ?
+  
+#### Death Saves
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+  
+  
+### Abilities
+  
+| Name         | Proficiency | Modifier |
+| ------------ | ----------- | -------- |
+| STRength     | ?           | ?       |
+| DEXterity    | ?          | ?        |
+| CONstitution | ?          | ?        |
+| INTelegance  | ?          | ?        |
+| WISdom       | ?          | ?        |
+| CHArisma     | ?          | ?        |
+  
+Proficiency bonus +?
+  
+  
+### Inventory
+  
+| QTY | name | weight(lb.) | cost(gp) |
+| --- | ---- | ----------- | -------- |
+|     |      |             |          |
+  
+  
+  
+  
+  
 ## Fireplum
   
 | Attribute | Value  |
@@ -329,6 +412,47 @@ Intelligence is your spellcasting ability for these spells, and you cast them at
 | Evil    |        |         |         |
   
   
+### Health
+  
+| Max | Current | Temp |
+| --- | ------- | ---- |
+| ?  | ?      |
+  
+#### Armor Class ?
+  
+#### Death Saves
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+  
+  
+### Abilities
+  
+| Name         | Proficiency | Modifier |
+| ------------ | ----------- | -------- |
+| STRength     | ?           | ?       |
+| DEXterity    | ?          | ?        |
+| CONstitution | ?          | ?        |
+| INTelegance  | ?          | ?        |
+| WISdom       | ?          | ?        |
+| CHArisma     | ?          | ?        |
+  
+Proficiency bonus +?
+  
+  
+### Inventory
+  
+| QTY | name | weight(lb.) | cost(gp) |
+| --- | ---- | ----------- | -------- |
+|     |      |             |          |
+  
+  
+  
+  
+  
 ## Cous
   
 | Attribute | Value       |
@@ -350,5 +474,45 @@ Intelligence is your spellcasting ability for these spells, and you cast them at
 | Good    |        |         |
 | Neutral |        |         |         |
 | Evil    |        |         |         |
+  
+  
+### Health
+  
+| Max | Current | Temp |
+| --- | ------- | ---- |
+| ?  | ?      |
+  
+#### Armor Class ?
+  
+#### Death Saves
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+  
+  
+### Abilities
+  
+| Name         | Proficiency | Modifier |
+| ------------ | ----------- | -------- |
+| STRength     | ?           | ?       |
+| DEXterity    | ?          | ?        |
+| CONstitution | ?          | ?        |
+| INTelegance  | ?          | ?        |
+| WISdom       | ?          | ?        |
+| CHArisma     | ?          | ?        |
+  
+Proficiency bonus +?
+  
+  
+### Inventory
+  
+| QTY | name | weight(lb.) | cost(gp) |
+| --- | ---- | ----------- | -------- |
+|     |      |             |          |
+  
+  
   
   
