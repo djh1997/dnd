@@ -20,53 +20,49 @@
     - [Spellcasting PHB, pg. 52](#spellcasting-phb-pg-52 )
     - [Bardic Inspiration PHB, pg. 53](#bardic-inspiration-phb-pg-53 )
     - [Jack of All Trades PHB, pg. 54](#jack-of-all-trades-phb-pg-54 )
-    - [Song of Rest  PHB, pg. 54](#song-of-rest--phb-pg-54 )
+    - [Song of Rest PHB, pg. 54](#song-of-rest-phb-pg-54 )
     - [Psychic blades XGE](#psychic-blades-xge )
     - [Whispers of terror XGE](#whispers-of-terror-xge )
   - [Rogue Features](#rogue-features )
-    - [Sneak Attack2d6PHB, pg. 96](#sneak-attack2d6phb-pg-96 )
-    - [Thieves’ CantPHB, pg. 96](#thieves-cantphb-pg-96 )
-    - [Cunning ActionPHB, pg. 96](#cunning-actionphb-pg-96 )
-    - [Fast HandsPHB, pg. 97](#fast-handsphb-pg-97 )
-    - [Second-Story WorkPHB, pg. 97](#second-story-workphb-pg-97 )
+    - [Sneak Attack  PHB, pg. 96](#sneak-attack--phb-pg-96 )
+    - [Thieves’ Cant PHB, pg. 96](#thieves-cant-phb-pg-96 )
+    - [Cunning Action PHB, pg. 96](#cunning-action-phb-pg-96 )
+    - [Fast Hands PHB, pg. 97](#fast-hands-phb-pg-97 )
+    - [Second-Story Work PHB, pg. 97](#second-story-work-phb-pg-97 )
 - [Racial Traits](#racial-traits )
-    - [Gnome CunningBR, pg. 37](#gnome-cunningbr-pg-37 )
-    - [Superior DarkvisionEE](#superior-darkvisionee )
-    - [Stone CamouflageEE](#stone-camouflageee )
-    - [Svirfneblin magicEE](#svirfneblin-magicee )
+    - [Gnome Cunning BR, pg. 37](#gnome-cunning-br-pg-37 )
+    - [Superior Darkvision EE](#superior-darkvision-ee )
+    - [Stone Camouflage EE](#stone-camouflage-ee )
+    - [Svirfneblin magic EE](#svirfneblin-magic-ee )
 - [Traits](#traits )
-  - [personaity](#personaity )
-  - [ideals](#ideals )
-  - [bonds](#bonds )
-  - [flaws](#flaws )
+  - [Personality](#personality )
+  - [Ideals](#ideals )
+  - [Bonds](#bonds )
+  - [Flaws](#flaws )
 - [Appearance](#appearance )
 - [Backstory](#backstory )
 - [Party](#party )
   - [Auren](#auren )
     - [Alignment](#alignment-1 )
     - [Health](#health-1 )
-      - [Armor Class ?](#armor-class- )
       - [Death Saves](#death-saves-1 )
     - [Abilities](#abilities-1 )
     - [Inventory](#inventory-1 )
   - [Burnhard Edward Toast](#burnhard-edward-toast )
     - [Alignment](#alignment-2 )
     - [Health](#health-2 )
-      - [Armor Class ?](#armor-class--1 )
       - [Death Saves](#death-saves-2 )
     - [Abilities](#abilities-2 )
     - [Inventory](#inventory-2 )
   - [Fireplum](#fireplum )
     - [Alignment](#alignment-3 )
     - [Health](#health-3 )
-      - [Armor Class ?](#armor-class--2 )
       - [Death Saves](#death-saves-3 )
     - [Abilities](#abilities-3 )
     - [Inventory](#inventory-3 )
   - [Cous](#cous )
     - [Alignment](#alignment-4 )
     - [Health](#health-4 )
-      - [Armor Class ?](#armor-class--3 )
       - [Death Saves](#death-saves-4 )
     - [Abilities](#abilities-4 )
     - [Inventory](#inventory-4 )
@@ -277,7 +273,7 @@ As a **bonus action**, a creature (other than you) within **60 ft.** that can he
   
 You can add half your proficiency bonus, rounded down ( +1 ), to any ability check you make that doesn’t already include it.
   
-### Song of Rest  PHB, pg. 54
+### Song of Rest PHB, pg. 54
   
 If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest by spending one or more Hit Dice, each of those creatures regains an extra **1d6** hit points.
   
@@ -292,41 +288,41 @@ Once per short rest or long rest.
   
 ## Rogue Features
   
-### Sneak Attack2d6PHB, pg. 96
+### Sneak Attack  PHB, pg. 96
   
 Once per turn, you can deal an extra **2d6** damage to one creature you hit with an attack with a finesse or ranged weapon if you have advantage on the attack roll. You don’t need advantage on the attack roll if another enemy of the target is within 5 ft. of it, that enemy isn’t incapacitated, and you don’t have disadvantage on the attack roll.
   
-### Thieves’ CantPHB, pg. 96
+### Thieves’ Cant PHB, pg. 96
   
 You have learned thieves’ cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. It takes **four times longer** to convey such a message than it does to speak the same idea plainly.
   
-### Cunning ActionPHB, pg. 96
+### Cunning Action PHB, pg. 96
   
 You can take a **bonus action** on each of your turns to take the Dash, Disengage, or Hide action.
   
-### Fast HandsPHB, pg. 97
+### Fast Hands PHB, pg. 97
   
 You can use the **bonus action** granted by your Cunning Action to make a Sleight of Hand check, use your thieves’ tools to disarm a trap or open a lock, or take the Use an Object action.
   
-### Second-Story WorkPHB, pg. 97
+### Second-Story Work PHB, pg. 97
   
 Climbing no longer costs you extra movement, and when you make a running jump, the distance you cover increases by **3 ft.**.
   
 # Racial Traits
   
-### Gnome CunningBR, pg. 37
+### Gnome Cunning BR, pg. 37
   
 You have advantage on all **Intelligence, Wisdom, and Charisma** saving throws against **magic**.
   
-### Superior DarkvisionEE
+### Superior Darkvision EE
   
 Your darkvision has a radius of 120 feet.
   
-### Stone CamouflageEE
+### Stone Camouflage EE
   
 You have advantage on Dexterity (Stealth) checks to hide in rocky terrain.
   
-### Svirfneblin magicEE
+### Svirfneblin magic EE
   
 You can cast nondetection on yourself **at will**, without needing a material component. You can also cast each of the following spells once with this ability: **blindness/deafness, blur, and disguise self**. You regain the ability to cast these spells when you finish a **long rest**.
 Intelligence is your spellcasting ability for these spells, and you cast them at their lowest possible levels.
@@ -334,19 +330,19 @@ Intelligence is your spellcasting ability for these spells, and you cast them at
   
 # Traits
   
-## personaity
+## Personality
   
-I am always calm since I don’t pay attention to the risks in a situation. never tell me the odds.
+I am always calm since I don’t pay attention to the risks in a situation. Never tell me the odds as ill always take them.
   
-## ideals
+## Ideals
   
 Freedom. Chains are meant to be broken, as are those who would forge them. (Chaotic)
   
-## bonds
+## Bonds
   
 I’m trying to pay off an old debt I owe to a generous benefactor.
   
-## flaws
+## Flaws
   
 If there’s a plan, I’ll forget it. If I don’t forget it, I’ll ignore it.
   
@@ -404,7 +400,7 @@ Their final job together went wrong, and the old man was gravely wounded. Goda t
 | --- | ------- | ---- |
 | ?  | ?      |
   
-#### Armor Class ?
+Armor Class ?
   
 #### Death Saves
 - [ ] 
@@ -470,7 +466,7 @@ imp called Mr. Nesbit
 | --- | ------- | ---- |
 | ?  | ?      |
   
-#### Armor Class ?
+Armor Class ?
   
 #### Death Saves
 - [ ] 
@@ -534,7 +530,7 @@ Proficiency bonus +?
 | --- | ------- | ---- |
 | ?  | ?      |
   
-#### Armor Class ?
+Armor Class ?
   
 #### Death Saves
 - [ ] 
@@ -598,7 +594,7 @@ Proficiency bonus +?
 | --- | ------- | ---- |
 | ?  | ?      |
   
-#### Armor Class ?
+Armor Class ?
   
 #### Death Saves
 - [ ] 
