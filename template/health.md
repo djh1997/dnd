@@ -1,12 +1,12 @@
-## Health
+### Health
 
 | Max | Current | Temp |
 | --- | ------- | ---- |
 | ?  | ?      |
 
-### Armor Class ?
+#### Armor Class ?
 
-### Death Saves
+#### Death Saves
 - [ ] 
 - [ ] 
 - [ ] 
