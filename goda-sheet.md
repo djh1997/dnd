@@ -14,7 +14,7 @@
 
 # Party
 
-![Auren](party/auren//description.md)
-![Burnheart](party/burnheart/description.md)
-![Fireplum](party/fireplum/description.md)
-![Cous](party/cous//description.md)
+![Auren](party/auren/sheet.md)
+![Burnheart](party/burnheart/sheet.md)
+![Fireplum](party/fireplum/sheet.md)
+![Cous](party/cous//sheet.md)
