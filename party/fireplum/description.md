@@ -1,5 +1,5 @@
 ## Fireplum
-
+![mugshot](/party/fireplum/fireplum.jpeg)
 | Attribute | Value    |
 | --------- | -------- |
 | class     | wizard   |
