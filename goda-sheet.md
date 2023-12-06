@@ -1,5 +1,5 @@
 # Goda McCormick
-
+[TOC]
 ![health](goda/health.md)
 ![abilities](goda/abilities.md)
 ![description](goda/description.md)

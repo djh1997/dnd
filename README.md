@@ -1,6 +1,76 @@
 # Goda McCormick
   
   
+- [Goda McCormick](#goda-mccormick )
+- [Health](#health )
+  - [Armor Class 14](#armor-class-14 )
+  - [Death Saves](#death-saves )
+- [Abilities](#abilities )
+  - [Alignment](#alignment )
+- [Skills](#skills )
+- [Weapons](#weapons )
+- [Armor](#armor )
+- [Wallet](#wallet )
+- [Inventory](#inventory )
+  - [Quiver](#quiver )
+  - [Bag of Holding](#bag-of-holding )
+- [Spells](#spells )
+- [Class Features](#class-features )
+  - [Bard Features PHB, pg.52](#bard-features-phb-pg52 )
+    - [Spellcasting PHB, pg. 52](#spellcasting-phb-pg-52 )
+    - [Bardic Inspiration PHB, pg. 53](#bardic-inspiration-phb-pg-53 )
+    - [Jack of All Trades PHB, pg. 54](#jack-of-all-trades-phb-pg-54 )
+    - [Song of Rest  PHB, pg. 54](#song-of-rest--phb-pg-54 )
+    - [Psychic blades XGE](#psychic-blades-xge )
+    - [Whispers of terror XGE](#whispers-of-terror-xge )
+  - [Rogue Features](#rogue-features )
+    - [Sneak Attack2d6PHB, pg. 96](#sneak-attack2d6phb-pg-96 )
+    - [Thieves’ CantPHB, pg. 96](#thieves-cantphb-pg-96 )
+    - [Cunning ActionPHB, pg. 96](#cunning-actionphb-pg-96 )
+    - [Fast HandsPHB, pg. 97](#fast-handsphb-pg-97 )
+    - [Second-Story WorkPHB, pg. 97](#second-story-workphb-pg-97 )
+- [Racial Traits](#racial-traits )
+    - [Gnome CunningBR, pg. 37](#gnome-cunningbr-pg-37 )
+    - [Superior DarkvisionEE](#superior-darkvisionee )
+    - [Stone CamouflageEE](#stone-camouflageee )
+    - [Svirfneblin magicEE](#svirfneblin-magicee )
+- [Traits](#traits )
+  - [personaity](#personaity )
+  - [ideals](#ideals )
+  - [bonds](#bonds )
+  - [flaws](#flaws )
+- [Appearance](#appearance )
+- [Backstory](#backstory )
+- [Party](#party )
+  - [Auren](#auren )
+    - [Alignment](#alignment-1 )
+    - [Health](#health-1 )
+      - [Armor Class ?](#armor-class- )
+      - [Death Saves](#death-saves-1 )
+    - [Abilities](#abilities-1 )
+    - [Inventory](#inventory-1 )
+  - [Burnhard Edward Toast](#burnhard-edward-toast )
+    - [Alignment](#alignment-2 )
+    - [Health](#health-2 )
+      - [Armor Class ?](#armor-class--1 )
+      - [Death Saves](#death-saves-2 )
+    - [Abilities](#abilities-2 )
+    - [Inventory](#inventory-2 )
+  - [Fireplum](#fireplum )
+    - [Alignment](#alignment-3 )
+    - [Health](#health-3 )
+      - [Armor Class ?](#armor-class--2 )
+      - [Death Saves](#death-saves-3 )
+    - [Abilities](#abilities-3 )
+    - [Inventory](#inventory-3 )
+  - [Cous](#cous )
+    - [Alignment](#alignment-4 )
+    - [Health](#health-4 )
+      - [Armor Class ?](#armor-class--3 )
+      - [Death Saves](#death-saves-4 )
+    - [Abilities](#abilities-4 )
+    - [Inventory](#inventory-4 )
+  
 # Health
   
 | Max | Current | Temp |
@@ -32,20 +102,20 @@
 Proficiency bonus +3
   
   
-| Attribute  | Value      |
-| ---------- | ---------- |
-| Rogue      | 3          |
-| Bard       | 3          |
-| Race       | Deep gnome |
-| Background | Spy        |
-| Collage    | Whispers   |
-| Gender     | Male       |
-| Age        | 180        |
-| Height     | 3'1"       |
-| Weight     | 42         |
-| Skin       | Pale       |
-| Eye        | Deep blue  |
-| Hair       | Auburn     |
+| Attribute  | Value        |
+| ---------- | ------------ |
+| Rogue      | 3            |
+| Bard       | 3            |
+| Race       | Deep gnome   |
+| Background | criminal-Spy |
+| Collage    | Whispers     |
+| Gender     | Male         |
+| Age        | 180          |
+| Height     | 3'1"         |
+| Weight     | 42           |
+| Skin       | Pale         |
+| Eye        | Deep blue    |
+| Hair       | Auburn       |
   
 ## Alignment
   
@@ -168,84 +238,85 @@ weigh's 15lb. can carry 500lb. <img src="https://latex.codecogs.com/gif.latex?64
 # Spells
   
 - Spell casting class Bard
-- Spell casting ability CHA 
+- Spell casting ability CHA
 - Spell save DC 13
 - Spell attack bonus +5
   
-| Level   | Spell name     | Source | Time   | Range        | Component         | Duration             | Notes         | Ref |
-| ------- | -------------- | ------ | ------ | ------------ | ----------------- | -------------------- | ------------- | --- |
-| Cantrip | Mage hand      | Bard   | Action | 30           | V,S               | 1 Min                | 10 lb max     | 256 |
-| Cantrip | Minor illusion | Bard   | Action | 30 / 5 cube  | S,Fleece          | 1 Min                |               | 260 |
-| 1       | Cure wounds    | Bard   | Action | Touch        | V,S               | Instant              | 1D8+CHA       | 230 |
-| 1       | Healing word   | Bard   | Bonus  | 60           | V                 | Instant              | 1D4+CHA       | 250 |
-| 1       | Silent image   | Bard   | Action | 60 / 15      | V,S,Fleece        | Concentration <10min |               | 276 |
-| 1       | Unseen servant | Bard   | Action | 60           | V,S,String,wood   | 1 Hour               | 10AC 1HP 2STR | 284 |
-| 1       | Feather fall   | Bard   | Action | 60           | V, feather        | 1 Min                | 5 creatures   | 239 |
-| 1 svir  | Disguise self  | Bard   | Action | Self         | V,S               | 1 Hour               |               | 233 |
-| 2       | Cure wounds    | Bard   | Action | Touch        | V,S               | Instant              | 2D8+CHA       | 230 |
-| 2       | Healing word   | Bard   | Bonus  | 60           | V                 | Instant              | 2D4+CHA       | 250 |
-| 2       | Silence        | Bard   | Action | 120 / 20 sph | V,S               | Concentration <10min |               | 275 |
-| 2 svir  | blind/deafness | Bard   | Action | 30           | V                 | 1 Min                | Con 14 save   | 219 |
-| 2 svir  | Blur           | Bard   | Action | Self         | V                 | Concentration <1min  |               | 219 |
-| 3 svir  | Nondetection   | Bard   | Action | Touch        | V,S, no M as svir | 8 Hours              | 10ft max      | 263 |
+| Level   | Spell name     | Source | Time   | Range        | Component         | Duration             | Notes           | Ref |
+| ------- | -------------- | ------ | ------ | ------------ | ----------------- | -------------------- | --------------- | --- |
+| Cantrip | Mage hand      | Bard   | Action | 30           | V,S               | 1 Min                | 10 lb max       | 256 |
+| Cantrip | Minor illusion | Bard   | Action | 30 / 5 cube  | S,Fleece          | 1 Min                |                 | 260 |
+| Cantrip | True strike    | Bard   | Action | 30           | S                 | Concentration        | ADV next attack | 284 |
+| 1       | Cure wounds    | Bard   | Action | Touch        | V,S               | Instant              | 1D8+CHA         | 230 |
+| 1       | Healing word   | Bard   | Bonus  | 60           | V                 | Instant              | 1D4+CHA         | 250 |
+| 1       | Silent image   | Bard   | Action | 60 / 15      | V,S,Fleece        | Concentration <10min |                 | 276 |
+| 1       | Unseen servant | Bard   | Action | 60           | V,S,String,wood   | 1 Hour               | 10AC 1HP 2STR   | 284 |
+| 1       | Feather fall   | Bard   | Action | 60           | V, feather        | 1 Min                | 5 creatures     | 239 |
+| 1 svir  | Disguise self  | Bard   | Action | Self         | V,S               | 1 Hour               |                 | 233 |
+| 2       | Cure wounds    | Bard   | Action | Touch        | V,S               | Instant              | 2D8+CHA         | 230 |
+| 2       | Healing word   | Bard   | Bonus  | 60           | V                 | Instant              | 2D4+CHA         | 250 |
+| 2       | Silence        | Bard   | Action | 120 / 20 sph | V,S               | Concentration <10min |                 | 275 |
+| 2 svir  | blind/deafness | Bard   | Action | 30           | V                 | 1 Min                | Con 14 save     | 219 |
+| 2 svir  | Blur           | Bard   | Action | Self         | V                 | Concentration <1min  |                 | 219 |
+| 3 svir  | Nondetection   | Bard   | Action | Touch        | V,S, no M as svir | 8 Hours              | 10ft max        | 263 |
   
   
 # Class Features
   
 ## Bard Features PHB, pg.52
   
-### SpellcastingPHB, pg. 52
+### Spellcasting PHB, pg. 52
   
-You can cast known bard spells using CHA as your spellcasting modifier (Spell DC 13, Spell Attack +5) and known bard spells as rituals if they have the ritual tag. You can use a musical instrument as a spellcasting focus.
+You can cast known bard spells using CHA as your spellcasting modifier (**Spell DC 13, Spell Attack +5**) and known bard spells as rituals if they have the ritual tag. You can use a musical instrument as a spellcasting focus.
   
-### Bardic Inspiration d6 PHB, pg. 53
+### Bardic Inspiration PHB, pg. 53
   
-As a bonus action, a creature (other than you) within 60 ft. that can hear you gains an inspiration die (1d6). For 10 minutes, the creature can add it to one ability check, attack roll, or saving throw. This can be added after seeing the roll, but before knowing the outcome.Bardic Inspiration: 1 Bonus Action 2per/Long Rest
+As a **bonus action**, a creature (other than you) within **60 ft.** that can hear you gains an inspiration die (**1d6**). For **10** minutes, the creature can add it to one ability check, attack roll, or saving throw. This can be added after seeing the roll, but before knowing the outcome. **2/Long Rest**
   
-### Jack of All TradesPHB, pg. 54
+### Jack of All Trades PHB, pg. 54
   
 You can add half your proficiency bonus, rounded down ( +1 ), to any ability check you make that doesn’t already include it.
   
-### Song of Rest+1d6 HP PHB, pg. 54
+### Song of Rest  PHB, pg. 54
   
-If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest by spending one or more Hit Dice, each of those creatures regains an extra 1d6 hit points.
+If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest by spending one or more Hit Dice, each of those creatures regains an extra **1d6** hit points.
   
 ### Psychic blades XGE
   
-When you hit a creature with a weapon attack, you can expend one use of your Bardic Inspiration to deal an additional 2d6 psychic damage to that target. Once per round on your turn.
+When you hit a creature with a weapon attack, you can expend one use of your Bardic Inspiration to deal an additional **2d6** psychic damage to that target. Once per round on your turn.
   
 ### Whispers of terror XGE
   
-If you speak to a humanoid alone for at least 1 minute at the end of the conversation, the target must succeed on a Wisdom saving throw against your spell save DC or be frightened of you or another creature of your choice. The target is frightened in this way for 1 hour, until it is attacked or damaged, or until it witnesses its allies being attacked or damaged.
-Once short rest or long rest.
+If you speak to a humanoid alone for at least **1** minute at the end of the conversation, the target must succeed on a **Wisdom** saving throw against your **spell save DC** or be frightened of you or another creature of your choice. The target is frightened in this way for 1 hour, until it is attacked or damaged, or until it witnesses its allies being attacked or damaged.
+Once per short rest or long rest.
   
 ## Rogue Features
   
 ### Sneak Attack2d6PHB, pg. 96
   
-Once per turn, you can deal an extra 2d6 damage to one creature you hit with an attack with a finesse or ranged weapon if you have advantage on the attack roll. You don’t need advantage on the attack roll if another enemy of the target is within 5 ft. of it, that enemy isn’t incapacitated, and you don’t have disadvantage on the attack roll.Sneak Attack: (No Action)
+Once per turn, you can deal an extra **2d6** damage to one creature you hit with an attack with a finesse or ranged weapon if you have advantage on the attack roll. You don’t need advantage on the attack roll if another enemy of the target is within 5 ft. of it, that enemy isn’t incapacitated, and you don’t have disadvantage on the attack roll.
   
 ### Thieves’ CantPHB, pg. 96
   
-You have learned thieves’ cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. It takes four times longer to convey such a message than it does to speak the same idea plainly.
+You have learned thieves’ cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. It takes **four times longer** to convey such a message than it does to speak the same idea plainly.
   
 ### Cunning ActionPHB, pg. 96
   
-You can take a bonus action on each of your turns to take the Dash, Disengage, or Hide action.Cunning Action: 1 Bonus Action
+You can take a **bonus action** on each of your turns to take the Dash, Disengage, or Hide action.
   
 ### Fast HandsPHB, pg. 97
   
-You can use the bonus action granted by your Cunning Action to make a Sleight of Hand check, use your thieves’ tools to disarm a trap or open a lock, or take the Use an Object action.Fast Hands: 1 Bonus Action
+You can use the **bonus action** granted by your Cunning Action to make a Sleight of Hand check, use your thieves’ tools to disarm a trap or open a lock, or take the Use an Object action.
   
 ### Second-Story WorkPHB, pg. 97
   
-Climbing no longer costs you extra movement, and when you make a running jump, the distance you cover increases by +3 feet.
+Climbing no longer costs you extra movement, and when you make a running jump, the distance you cover increases by **3 ft.**.
   
 # Racial Traits
   
 ### Gnome CunningBR, pg. 37
   
-You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.
+You have advantage on all **Intelligence, Wisdom, and Charisma** saving throws against **magic**.
   
 ### Superior DarkvisionEE
   
@@ -257,26 +328,45 @@ You have advantage on Dexterity (Stealth) checks to hide in rocky terrain.
   
 ### Svirfneblin magicEE
   
-You can cast nondetection on yourself at will, without needing a material component. You can also cast each of the following spells once with this ability: blindness/deafness, blur, and disguise self. You regain the ability to cast these spells when you finish a long rest.
+You can cast nondetection on yourself **at will**, without needing a material component. You can also cast each of the following spells once with this ability: **blindness/deafness, blur, and disguise self**. You regain the ability to cast these spells when you finish a **long rest**.
 Intelligence is your spellcasting ability for these spells, and you cast them at their lowest possible levels.
+  
+  
+# Traits
+  
+## personaity
+  
+I am always calm since I don’t pay attention to the risks in a situation. never tell me the odds.
+  
+## ideals
+  
+Freedom. Chains are meant to be broken, as are those who would forge them. (Chaotic)
+  
+## bonds
+  
+I’m trying to pay off an old debt I owe to a generous benefactor.
+  
+## flaws
+  
+If there’s a plan, I’ll forget it. If I don’t forget it, I’ll ignore it.
   
   
 # Appearance
   
 ![mug shot](goda/goda.jpeg )
   
-The short gnome was a striking figure, with his pale complexion and deep blue eyes that seemed to sparkle even in the dimmest light. His dark auburn hair was usually kept short and tidy, framing his face in a way that drew attention to his stunning eyes.  
+The short gnome was a striking figure, with his pale complexion and deep blue eyes that seemed to sparkle even in the dimmest light. His dark auburn hair was usually kept short and tidy, framing his face in a way that drew attention to his stunning eyes.
   
-He was often seen wearing dark glasses, which he used to hide his glass eye, a constant reminder of the danger and violence he had left behind. His attire was a mishmash of styles, combining a flat cap with tattered armor and an assassin's hooded robe. It was clear that he had seen some tough times and had been forced to improvise with whatever he had on hand. 
+He was often seen wearing dark glasses, which he used to hide his glass eye, a constant reminder of the danger and violence he had left behind. His attire was a mishmash of styles, combining a flat cap with tattered armor and an assassin's hooded robe. It was clear that he had seen some tough times and had been forced to improvise with whatever he had on hand.
   
-He could often be found busking on street corners and inns to earn his keep 
+He could often be found busking on street corners and inns to earn his keep
   
   
 # Backstory
   
-As a young rogue, Goda had a rough start in life. Growing up on the streets, he learned early on how to pick pockets and sneak around unnoticed. However, his life of crime came to a halt when he was caught attempting to rob an old man. The old man, who happened to be a retired assassin, saw potential in the young thief and offered him an apprenticeship. 
+As a young rogue, Goda had a rough start in life. Growing up on the streets, he learned early on how to pick pockets and sneak around unnoticed. However, his life of crime came to a halt when he was caught attempting to rob an old man. The old man, who happened to be a retired assassin, saw potential in the young thief and offered him an apprenticeship.
   
-Goda spent several years learning the art of assassination and thievery under the tutelage of the old man. Despite his criminal past, he found himself drawn to the old man's wisdom and skill, and began to see a life beyond the shadows of thievery and deception. 
+Goda spent several years learning the art of assassination and thievery under the tutelage of the old man. Despite his criminal past, he found himself drawn to the old man's wisdom and skill, and began to see a life beyond the shadows of thievery and deception.
   
 Their final job together went wrong, and the old man was gravely wounded. Goda tried to help him escape, but they were separated during their escape. Goda was left with a serious injury - an arrow lodged in his eye. He woke up alone, without the old man or any sign of his whereabouts, and had to make his way out of the
   
@@ -289,7 +379,7 @@ Their final job together went wrong, and the old man was gravely wounded. Goda t
   
 | Attribute | Value      |
 | --------- | ---------- |
-| class     | ?          |
+| class     | wizard     |
 | Race      | Astral elf |
 | Gender    | female     |
 | Age       | ?          |
@@ -349,19 +439,21 @@ Proficiency bonus +?
   
   
   
-## Burnheart
+## Burnhard Edward Toast
   
-| Attribute | Value |
-| --------- | ----- |
-| class     | ?     |
-| Race      | Human |
-| Gender    | Male  |
-| Age       | ?     |
-| Height    | ?     |
-| Weight    | ?     |
-| Skin      | ?     |
-| Eye       | ?     |
-| Hair      | ?     |
+imp called Mr. Nesbit
+  
+| Attribute | Value     |
+| --------- | --------- |
+| class     | warlock?  |
+| Race      | half elf? |
+| Gender    | Male      |
+| Age       | ?         |
+| Height    | ?         |
+| Weight    | ?         |
+| Skin      | ?         |
+| Eye       | ?         |
+| Hair      | ?         |
   
 ### Alignment
   
@@ -481,7 +573,7 @@ Proficiency bonus +?
   
 | Attribute | Value       |
 | --------- | ----------- |
-| class     | ?           |
+| class     | Druid       |
 | Race      | Lizard folk |
 | Gender    | Female      |
 | Age       | ?           |
