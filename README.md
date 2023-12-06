@@ -386,6 +386,7 @@ Goda spent several years learning the art of assassination and thievery under th
 Their final job together went wrong, and the old man was gravely wounded. Goda tried to help him escape, but they were separated during their escape. Goda was left with a serious injury - an arrow lodged in his eye. He woke up alone, without the old man or any sign of his whereabouts, and had to make his way out of the
   
   
+  
 # Party
   
   
@@ -643,6 +644,7 @@ Proficiency bonus +?
 | QTY | name | weight(lb.) | cost(gp) |
 | --- | ---- | ----------- | -------- |
 |     |      |             |          |
+  
   
   
   
