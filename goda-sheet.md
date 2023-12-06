@@ -1,6 +1,7 @@
 #Goda McCormick
 
 ![mug shot](goda/goda.jpeg)
+![health](goda/health.md)
 ![abilities](goda/abilities.md)
 ![description](goda/description.md)
 ![skills](goda/skills.md)

@@ -4,7 +4,7 @@
 | --- | ------- | ---- |
 | 28  | 28      |
 
-##Armor Class 12
+##Armor Class 14
 
 ##Death Saves
 

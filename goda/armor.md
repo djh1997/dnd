@@ -1,5 +1,5 @@
 #Armor
 
-| Type | Armor class | Cost | Weight |
-| ---- | ----------- | ---- | ------ |
-| Hide | 12          | 10   | 12     |
+| Type    | Armor class | Cost | Weight |
+| ------- | ----------- | ---- | ------ |
+| Leather | 11 + DEX    | 10   | 10     |
