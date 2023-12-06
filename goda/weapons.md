@@ -1,4 +1,4 @@
-#Weapons
+# Weapons
 
 | Name      | Hit | Damage | Type        | Range    | QTY |
 | --------- | --- | ------ | ----------- | -------- | --- |

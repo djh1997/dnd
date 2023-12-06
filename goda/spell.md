@@ -1,3 +1,5 @@
+# Spell List
+
 | Level   | Spell name     | Source | Time   | Range        | Component         | Duration             | Notes         | Ref |
 | ------- | -------------- | ------ | ------ | ------------ | ----------------- | -------------------- | ------------- | --- |
 | Cantrip | Mage hand      | Bard   | Action | 30           | V,S               | 1 Min                | 10 lb max     | 256 |

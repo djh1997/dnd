@@ -1,4 +1,4 @@
-#Inventory
+# Inventory
 
 | QTY | name            | weight(lb.) | cost(gp) |
 | --- | --------------- | ----------- | -------- |
@@ -16,7 +16,7 @@
 | 1   | Rapier          | 2           | 25       |
 | 1   | Short bow       | 2           | 25       |
 
-##Quiver
+## Quiver
 
 weigh's 1lb.
 
@@ -24,7 +24,7 @@ weigh's 1lb.
 | --- | ------ | ----------- | -------- |
 | 16  | Arrows | 0.8         |          |
 
-##Bag of Holding
+## Bag of Holding
 
 weigh's 15lb. can carry 500lb. $64^3$'
 

@@ -1,4 +1,4 @@
-#Goda McCormick
+# Goda McCormick
 
 ![mug shot](goda/goda.jpeg)
 ![health](goda/health.md)

@@ -1,4 +1,4 @@
-#Armor
+# Armor
 
 | Type    | Armor class | Cost | Weight |
 | ------- | ----------- | ---- | ------ |
