@@ -1,20 +1,20 @@
 # Inventory
 
-| QTY | name            | weight(lb.) | cost(gp) |
-| --- | --------------- | ----------- | -------- |
-| 1   | Signal Whistle  |             | 0.05     |
-| 1   | Signet ring     |             | 5        |
-| 1   | Poison DC10 d4  |             | 100      |
-| 2   | Thieves Tools   | 2           |          |
-| 10  | wood rings      |             |          |
-| 10  | twine rings     |             |          |
-| 1   | banjo           |             |          |
-| 1   | flat cap        |             |          |
-| 1   | harmonica       |             |          |
-| 1   | Leather armor   | 10          | 10       |
-| 2   | Dagger          | 2           | 4        |
-| 1   | Rapier          | 2           | 25       |
-| 1   | Short bow       | 2           | 25       |
+| QTY | name           | weight(lb.) | cost(gp) |
+| --- | -------------- | ----------- | -------- |
+| 1   | Signal Whistle |             | 0.05     |
+| 1   | Signet ring    |             | 5        |
+| 1   | Poison DC10 d4 |             | 100      |
+| 2   | Thieves Tools  | 2           |          |
+| 10  | wood rings     |             |          |
+| 10  | twine rings    |             |          |
+| 1   | banjo          |             |          |
+| 1   | flat cap       |             |          |
+| 1   | harmonica      |             |          |
+| 1   | Leather armor  | 10          | 10       |
+| 2   | Dagger         | 2           | 4        |
+| 1   | Rapier         | 2           | 25       |
+| 1   | Short bow      | 2           | 25       |
 
 ## Quiver
 

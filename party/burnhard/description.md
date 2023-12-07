@@ -1,7 +1,7 @@
 ## Burnhard Edward Toast
 
 imp called Mr. Nesbit
-![mugshot](/party/burnhard/burnhard.jpeg "Burnhard"){width="256px" height="256px"}
+![mugshot](/party/burnhard/burnhard.jpeg "Burnhard")
 
 | Attribute | Value        |
 | --------- | ------------ |
@@ -19,6 +19,6 @@ imp called Mr. Nesbit
 
 | X       | Lawful | Neutral | Chaotic |
 | ------- | ------ | ------- | ------- |
-| Good    | ?      |         |
+| Good    | ?      |         |         |
 | Neutral |        |         |         |
 | Evil    |        |         |         |

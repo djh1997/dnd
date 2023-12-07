@@ -1,6 +1,6 @@
 ## Auren
 
-![mugshot](/party/auren/auren.jpeg "Auren"){width="256px" height="256px"}
+![mugshot](/party/auren/auren.jpeg "Auren")
 
 | Attribute | Value        |
 | --------- | ------------ |

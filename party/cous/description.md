@@ -1,6 +1,6 @@
 ## Cous
 
-![mugshot](/party/cous/cous.jpeg "Cous"){width="256px" height="256px"}
+![mugshot](/party/cous/cous.jpeg "Cous")
 
 | Attribute | Value        |
 | --------- | ------------ |
@@ -18,6 +18,6 @@
 
 | X       | Lawful | Neutral | Chaotic |
 | ------- | ------ | ------- | ------- |
-| Good    |        | ?       |
+| Good    |        | ?       |         |
 | Neutral |        |         |         |
 | Evil    |        |         |         |

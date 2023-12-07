@@ -1,6 +1,6 @@
 ## Fireplum
 
-![mugshot](/party/fireplum/fireplum.jpeg "Fireplum"){width="256px" height="256px"}
+![mugshot](/party/fireplum/fireplum.jpeg "Fireplum")
 
 | Attribute | Value    |
 | --------- | -------- |
@@ -18,6 +18,6 @@
 
 | X       | Lawful | Neutral | Chaotic |
 | ------- | ------ | ------- | ------- |
-| Good    |        |         |
+| Good    |        |         |         |
 | Neutral |        | ?       |         |
 | Evil    |        |         |         |

@@ -10,7 +10,7 @@ sod's law the First ship we encounter is an astral elf slaver who tried to board
 
 ## coming across a hulk
 
-we came across a Nautiloidea hulk that we search one to be attacked by *bear slugs* when leaving we hear a voice calling for help we release them only for them (a creepy tentacle monster) to turn on us. we escape taking some *loot* (medical kits and a large breast plate im holding for Burnhard) with us.
+we came across a Nautiloidea hulk that we search one to be attacked by _bear slugs_ when leaving we hear a voice calling for help we release them only for them (a creepy tentacle monster) to turn on us. we escape taking some _loot_ (medical kits and a large breast plate im holding for Burnhard) with us.
 
 ## we finally reach the rock of BRAAHA
 

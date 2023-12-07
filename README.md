@@ -25,7 +25,7 @@
     - [Psychic blades XGE](#psychic-blades-xge )
     - [Whispers of terror XGE](#whispers-of-terror-xge )
   - [Rogue Features](#rogue-features )
-    - [Sneak Attack  PHB, pg. 96](#sneak-attack--phb-pg-96 )
+    - [Sneak Attack PHB, pg. 96](#sneak-attack-phb-pg-96 )
     - [Thieves’ Cant PHB, pg. 96](#thieves-cant-phb-pg-96 )
     - [Cunning Action PHB, pg. 96](#cunning-action-phb-pg-96 )
     - [Fast Hands PHB, pg. 97](#fast-hands-phb-pg-97 )
@@ -107,7 +107,7 @@ Passive wisdom (perception) 16
 Passive wisdom (insight) 11
 Passive intelligence (investigation) 14
   
-Darkvision 120ft.
+Dark-vision 120ft.
   
   
 | Attribute  | Value        |
@@ -115,7 +115,7 @@ Darkvision 120ft.
 | Rogue      | 3            |
 | Bard       | 3            |
 | Race       | Deep gnome   |
-| Background | criminal-Spy |
+| Background | Criminal-Spy |
 | Collage    | Whispers     |
 | Gender     | Male         |
 | Age        | 180          |
@@ -195,21 +195,21 @@ speed 25
   
 # Inventory
   
-| QTY | name            | weight(lb.) | cost(gp) |
-| --- | --------------- | ----------- | -------- |
-| 1   | Signal Whistle  |             | 0.05     |
-| 1   | Signet ring     |             | 5        |
-| 1   | Poison DC10 d4  |             | 100      |
-| 2   | Thieves Tools   | 2           |          |
-| 10  | wood rings      |             |          |
-| 10  | twine rings     |             |          |
-| 1   | banjo           |             |          |
-| 1   | flat cap        |             |          |
-| 1   | harmonica       |             |          |
-| 1   | Leather armor   | 10          | 10       |
-| 2   | Dagger          | 2           | 4        |
-| 1   | Rapier          | 2           | 25       |
-| 1   | Short bow       | 2           | 25       |
+| QTY | name           | weight(lb.) | cost(gp) |
+| --- | -------------- | ----------- | -------- |
+| 1   | Signal Whistle |             | 0.05     |
+| 1   | Signet ring    |             | 5        |
+| 1   | Poison DC10 d4 |             | 100      |
+| 2   | Thieves Tools  | 2           |          |
+| 10  | wood rings     |             |          |
+| 10  | twine rings    |             |          |
+| 1   | banjo          |             |          |
+| 1   | flat cap       |             |          |
+| 1   | harmonica      |             |          |
+| 1   | Leather armor  | 10          | 10       |
+| 2   | Dagger         | 2           | 4        |
+| 1   | Rapier         | 2           | 25       |
+| 1   | Short bow      | 2           | 25       |
   
 ## Quiver
   
@@ -318,7 +318,7 @@ Once per short rest or long rest.
   
 ## Rogue Features
   
-### Sneak Attack  PHB, pg. 96
+### Sneak Attack PHB, pg. 96
   
 Once per turn, you can deal an extra **2d6** damage to one creature you hit with an attack with a finesse or ranged weapon if you have advantage on the attack roll. You don’t need advantage on the attack roll if another enemy of the target is within 5 ft. of it, that enemy isn’t incapacitated, and you don’t have disadvantage on the attack roll.
   
@@ -357,7 +357,6 @@ You have advantage on Dexterity (Stealth) checks to hide in rocky terrain.
 You can cast nondetection on yourself **at will**, without needing a material component. You can also cast each of the following spells once with this ability: **blindness/deafness, blur, and disguise self**. You regain the ability to cast these spells when you finish a **long rest**.
 Intelligence is your spellcasting ability for these spells, and you cast them at their lowest possible levels.
   
-  
 # Traits
   
 ## Personality
@@ -379,7 +378,7 @@ If there’s a plan, I’ll forget it. If I don’t forget it, I’ll ignore it.
   
 # Appearance
   
-![mug shot](goda/goda.jpeg "Goda McCormick"){width="256px" height="256px"}
+![mug shot](goda/goda.jpeg "Goda McCormick")
   
 The short gnome was a striking figure, with his pale complexion and deep blue eyes that seemed to sparkle even in the dimmest light. His dark auburn hair was usually kept short and tidy, framing his face in a way that drew attention to his stunning eyes.
   
@@ -404,7 +403,7 @@ Their final job together went wrong, and the old man was gravely wounded. Goda t
   
 ## Auren
   
-![mugshot](party/auren/auren.jpeg "Auren"){width="256px" height="256px"}
+![mugshot](party/auren/auren.jpeg "Auren")
   
 | Attribute | Value        |
 | --------- | ------------ |
@@ -471,7 +470,7 @@ Proficiency bonus +?
 ## Burnhard Edward Toast
   
 imp called Mr. Nesbit
-![mugshot](party/burnhard/burnhard.jpeg "Burnhard"){width="256px" height="256px"}
+![mugshot](party/burnhard/burnhard.jpeg "Burnhard")
   
 | Attribute | Value        |
 | --------- | ------------ |
@@ -489,7 +488,7 @@ imp called Mr. Nesbit
   
 | X       | Lawful | Neutral | Chaotic |
 | ------- | ------ | ------- | ------- |
-| Good    | ?      |         |
+| Good    | ?      |         |         |
 | Neutral |        |         |         |
 | Evil    |        |         |         |
   
@@ -537,7 +536,7 @@ Proficiency bonus +?
   
 ## Fireplum
   
-![mugshot](party/fireplum/fireplum.jpeg "Fireplum"){width="256px" height="256px"}
+![mugshot](party/fireplum/fireplum.jpeg "Fireplum")
   
 | Attribute | Value    |
 | --------- | -------- |
@@ -555,7 +554,7 @@ Proficiency bonus +?
   
 | X       | Lawful | Neutral | Chaotic |
 | ------- | ------ | ------- | ------- |
-| Good    |        |         |
+| Good    |        |         |         |
 | Neutral |        | ?       |         |
 | Evil    |        |         |         |
   
@@ -603,7 +602,7 @@ Proficiency bonus +?
   
 ## Cous
   
-![mugshot](party/cous/cous.jpeg "Cous"){width="256px" height="256px"}
+![mugshot](party/cous/cous.jpeg "Cous")
   
 | Attribute | Value        |
 | --------- | ------------ |
@@ -621,7 +620,7 @@ Proficiency bonus +?
   
 | X       | Lawful | Neutral | Chaotic |
 | ------- | ------ | ------- | ------- |
-| Good    |        | ?       |
+| Good    |        | ?       |         |
 | Neutral |        |         |         |
 | Evil    |        |         |         |
   
@@ -679,7 +678,7 @@ sod's law the First ship we encounter is an astral elf slaver who tried to board
   
 ## coming across a hulk
   
-we came across a Nautiloidea hulk that we search one to be attacked by *bear slugs* when leaving we hear a voice calling for help we release them only for them (a creepy tentacle monster) to turn on us. we escape taking some *loot* (medical kits and a large breast plate im holding for Burnhard) with us.
+we came across a Nautiloidea hulk that we search one to be attacked by _bear slugs_ when leaving we hear a voice calling for help we release them only for them (a creepy tentacle monster) to turn on us. we escape taking some _loot_ (medical kits and a large breast plate im holding for Burnhard) with us.
   
 ## we finally reach the rock of BRAAHA
   

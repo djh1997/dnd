@@ -3,7 +3,7 @@
 | Rogue      | 3            |
 | Bard       | 3            |
 | Race       | Deep gnome   |
-| Background | criminal-Spy |
+| Background | Criminal-Spy |
 | Collage    | Whispers     |
 | Gender     | Male         |
 | Age        | 180          |

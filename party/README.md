@@ -29,7 +29,7 @@
   
 ## Auren
   
-![mugshot](auren/auren.jpeg "Auren"){width="256px" height="256px"}
+![mugshot](auren/auren.jpeg "Auren")
   
 | Attribute | Value        |
 | --------- | ------------ |
@@ -96,7 +96,7 @@ Proficiency bonus +?
 ## Burnhard Edward Toast
   
 imp called Mr. Nesbit
-![mugshot](burnhard/burnhard.jpeg "Burnhard"){width="256px" height="256px"}
+![mugshot](burnhard/burnhard.jpeg "Burnhard")
   
 | Attribute | Value        |
 | --------- | ------------ |
@@ -114,7 +114,7 @@ imp called Mr. Nesbit
   
 | X       | Lawful | Neutral | Chaotic |
 | ------- | ------ | ------- | ------- |
-| Good    | ?      |         |
+| Good    | ?      |         |         |
 | Neutral |        |         |         |
 | Evil    |        |         |         |
   
@@ -162,7 +162,7 @@ Proficiency bonus +?
   
 ## Fireplum
   
-![mugshot](fireplum/fireplum.jpeg "Fireplum"){width="256px" height="256px"}
+![mugshot](fireplum/fireplum.jpeg "Fireplum")
   
 | Attribute | Value    |
 | --------- | -------- |
@@ -180,7 +180,7 @@ Proficiency bonus +?
   
 | X       | Lawful | Neutral | Chaotic |
 | ------- | ------ | ------- | ------- |
-| Good    |        |         |
+| Good    |        |         |         |
 | Neutral |        | ?       |         |
 | Evil    |        |         |         |
   
@@ -228,7 +228,7 @@ Proficiency bonus +?
   
 ## Cous
   
-![mugshot](cous/cous.jpeg "Cous"){width="256px" height="256px"}
+![mugshot](cous/cous.jpeg "Cous")
   
 | Attribute | Value        |
 | --------- | ------------ |
@@ -246,7 +246,7 @@ Proficiency bonus +?
   
 | X       | Lawful | Neutral | Chaotic |
 | ------- | ------ | ------- | ------- |
-| Good    |        | ?       |
+| Good    |        | ?       |         |
 | Neutral |        |         |         |
 | Evil    |        |         |         |
   
