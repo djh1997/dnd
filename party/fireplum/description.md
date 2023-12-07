@@ -1,5 +1,5 @@
 ## Fireplum
-![mugshot](/party/fireplum/fireplum.jpeg "Fireplum")
+![mugshot](/party/fireplum/fireplum.jpeg "Fireplum"){width="256px" height="256px"}
 
 | Attribute | Value    |
 | --------- | -------- |

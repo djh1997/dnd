@@ -1,5 +1,5 @@
 ## Cous
-![mugshot](/party/cous/cous.jpeg "Cous")
+![mugshot](/party/cous/cous.jpeg "Cous"){width="256px" height="256px"}
 
 | Attribute | Value       |
 | --------- | ----------- |
