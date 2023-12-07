@@ -1,0 +1,1 @@
+Disillusioned Astral elf that has left the group to go searching for a higher meaning.

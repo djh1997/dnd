@@ -1,0 +1,1 @@
+Seems to be some kind of orphan/kidnap that developed magical powers but hasn't got full control over them yet.
