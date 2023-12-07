@@ -12,7 +12,9 @@
 Proficiency bonus +3
 
 Passive wisdom (perception) 16
+
 Passive wisdom (insight) 11
+
 Passive intelligence (investigation) 14
 
 Dark-vision 120ft.
