@@ -26,7 +26,7 @@ weigh's 1lb.
 
 ## Bag of Holding
 
-weigh's 15lb. can carry 500lb. $64^3$'
+weigh's 15lb. can carry 500lb. 64^3^'
 
 | QTY  | name               | weight(lb.) | cost(gp) |
 | ---- | ------------------ | ----------- | -------- |

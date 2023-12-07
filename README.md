@@ -210,7 +210,7 @@ weigh's 1lb.
   
 ## Bag of Holding
   
-weigh's 15lb. can carry 500lb. <img src="https://latex.codecogs.com/gif.latex?64^3"/>'
+weigh's 15lb. can carry 500lb. 64^3^'
   
 | QTY  | name               | weight(lb.) | cost(gp) |
 | ---- | ------------------ | ----------- | -------- |
