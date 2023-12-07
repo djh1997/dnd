@@ -28,25 +28,26 @@
     - [Inventory](#inventory-3 )
   
 ## Auren
+  
 ![mugshot](auren/auren.jpeg "Auren"){width="256px" height="256px"}
   
-| Attribute | Value      |
-| --------- | ---------- |
-| class     | wizard     |
-| Race      | Astral elf |
-| Gender    | female     |
-| Age       | ?          |
-| Height    | ?          |
-| Weight    | ?          |
-| Skin      | ?          |
-| Eye       | ?          |
-| Hair      | ?          |
+| Attribute | Value        |
+| --------- | ------------ |
+| class     | wizard       |
+| Race      | Astral elf   |
+| Gender    | female       |
+| Age       | ?            |
+| Height    | tall         |
+| Weight    | slim         |
+| Skin      | fair         |
+| Eye       | hazel        |
+| Hair      | dirty blonde |
   
 ### Alignment
   
 | X       | Lawful | Neutral | Chaotic |
 | ------- | ------ | ------- | ------- |
-| Good    |        |         |
+| Good    | ?      |         |         |
 | Neutral |        |         |         |
 | Evil    |        |         |         |
   
@@ -72,12 +73,12 @@ Armor Class ?
   
 | Name         | Proficiency | Modifier |
 | ------------ | ----------- | -------- |
-| STRength     | ?           | ?       |
-| DEXterity    | ?          | ?        |
-| CONstitution | ?          | ?        |
-| INTelegance  | ?          | ?        |
-| WISdom       | ?          | ?        |
-| CHArisma     | ?          | ?        |
+| STRength     | ?           | ?        |
+| DEXterity    | ?           | ?        |
+| CONstitution | ?           | ?        |
+| INTelegance  | ?           | ?        |
+| WISdom       | ?           | ?        |
+| CHArisma     | ?           | ?        |
   
 Proficiency bonus +?
   
@@ -93,26 +94,27 @@ Proficiency bonus +?
   
   
 ## Burnhard Edward Toast
+  
 imp called Mr. Nesbit
 ![mugshot](burnhard/burnhard.jpeg "Burnhard"){width="256px" height="256px"}
   
-| Attribute | Value     |
-| --------- | --------- |
-| class     | warlock?  |
-| Race      | half elf? |
-| Gender    | Male      |
-| Age       | ?         |
-| Height    | ?         |
-| Weight    | ?         |
-| Skin      | ?         |
-| Eye       | ?         |
-| Hair      | ?         |
+| Attribute | Value        |
+| --------- | ------------ |
+| class     | warlock?     |
+| Race      | half elf?    |
+| Gender    | Male         |
+| Age       | Mature       |
+| Height    | tall         |
+| Weight    | slim         |
+| Skin      | tan          |
+| Eye       | light blue   |
+| Hair      | dirty blonde |
   
 ### Alignment
   
 | X       | Lawful | Neutral | Chaotic |
 | ------- | ------ | ------- | ------- |
-| Good    |        |         |
+| Good    | ?      |         |
 | Neutral |        |         |         |
 | Evil    |        |         |         |
   
@@ -138,12 +140,12 @@ Armor Class ?
   
 | Name         | Proficiency | Modifier |
 | ------------ | ----------- | -------- |
-| STRength     | ?           | ?       |
-| DEXterity    | ?          | ?        |
-| CONstitution | ?          | ?        |
-| INTelegance  | ?          | ?        |
-| WISdom       | ?          | ?        |
-| CHArisma     | ?          | ?        |
+| STRength     | ?           | ?        |
+| DEXterity    | ?           | ?        |
+| CONstitution | ?           | ?        |
+| INTelegance  | ?           | ?        |
+| WISdom       | ?           | ?        |
+| CHArisma     | ?           | ?        |
   
 Proficiency bonus +?
   
@@ -159,6 +161,7 @@ Proficiency bonus +?
   
   
 ## Fireplum
+  
 ![mugshot](fireplum/fireplum.jpeg "Fireplum"){width="256px" height="256px"}
   
 | Attribute | Value    |
@@ -166,19 +169,19 @@ Proficiency bonus +?
 | class     | wizard   |
 | Race      | tiefling |
 | Gender    | Male     |
-| Age       | ?        |
-| Height    | ?        |
-| Weight    | ?        |
-| Skin      | ?        |
-| Eye       | ?        |
-| Hair      | ?        |
+| Age       | young    |
+| Height    | medium   |
+| Weight    | slim     |
+| Skin      | red      |
+| Eye       | white    |
+| Hair      | horns    |
   
 ### Alignment
   
 | X       | Lawful | Neutral | Chaotic |
 | ------- | ------ | ------- | ------- |
 | Good    |        |         |
-| Neutral |        |         |         |
+| Neutral |        | ?       |         |
 | Evil    |        |         |         |
   
   
@@ -203,12 +206,12 @@ Armor Class ?
   
 | Name         | Proficiency | Modifier |
 | ------------ | ----------- | -------- |
-| STRength     | ?           | ?       |
-| DEXterity    | ?          | ?        |
-| CONstitution | ?          | ?        |
-| INTelegance  | ?          | ?        |
-| WISdom       | ?          | ?        |
-| CHArisma     | ?          | ?        |
+| STRength     | ?           | ?        |
+| DEXterity    | ?           | ?        |
+| CONstitution | ?           | ?        |
+| INTelegance  | ?           | ?        |
+| WISdom       | ?           | ?        |
+| CHArisma     | ?           | ?        |
   
 Proficiency bonus +?
   
@@ -224,25 +227,26 @@ Proficiency bonus +?
   
   
 ## Cous
+  
 ![mugshot](cous/cous.jpeg "Cous"){width="256px" height="256px"}
   
-| Attribute | Value       |
-| --------- | ----------- |
-| class     | Druid       |
-| Race      | Lizard folk |
-| Gender    | Female      |
-| Age       | ?           |
-| Height    | ?           |
-| Weight    | ?           |
-| Skin      | ?           |
-| Eye       | ?           |
-| Hair      | ?           |
+| Attribute | Value        |
+| --------- | ------------ |
+| class     | Druid        |
+| Race      | Lizard folk  |
+| Gender    | Female       |
+| Age       | fully grown? |
+| Height    | tall         |
+| Weight    | ?            |
+| Skin      | green        |
+| Eye       | red          |
+| Hair      | none         |
   
 ### Alignment
   
 | X       | Lawful | Neutral | Chaotic |
 | ------- | ------ | ------- | ------- |
-| Good    |        |         |
+| Good    |        | ?       |
 | Neutral |        |         |         |
 | Evil    |        |         |         |
   
@@ -268,12 +272,12 @@ Armor Class ?
   
 | Name         | Proficiency | Modifier |
 | ------------ | ----------- | -------- |
-| STRength     | ?           | ?       |
-| DEXterity    | ?          | ?        |
-| CONstitution | ?          | ?        |
-| INTelegance  | ?          | ?        |
-| WISdom       | ?          | ?        |
-| CHArisma     | ?          | ?        |
+| STRength     | ?           | ?        |
+| DEXterity    | ?           | ?        |
+| CONstitution | ?           | ?        |
+| INTelegance  | ?           | ?        |
+| WISdom       | ?           | ?        |
+| CHArisma     | ?           | ?        |
   
 Proficiency bonus +?
   

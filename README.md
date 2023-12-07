@@ -67,6 +67,11 @@
       - [Death Saves](#death-saves-4 )
     - [Abilities](#abilities-4 )
     - [Inventory](#inventory-4 )
+- [Journal](#journal )
+  - [home planet](#home-planet )
+  - [first space ship encounter](#first-space-ship-encounter )
+  - [coming across a hulk](#coming-across-a-hulk )
+  - [we finally reach the rock of BRAAHA](#we-finally-reach-the-rock-of-braaha )
   
 # Health
   
@@ -97,6 +102,12 @@
 | CHArisma     | 14          | 2        |
   
 Proficiency bonus +3
+  
+Passive wisdom (perception) 16
+Passive wisdom (insight) 11
+Passive intelligence (investigation) 14
+  
+Darkvision 120ft.
   
   
 | Attribute  | Value        |
@@ -392,25 +403,26 @@ Their final job together went wrong, and the old man was gravely wounded. Goda t
   
   
 ## Auren
+  
 ![mugshot](party/auren/auren.jpeg "Auren"){width="256px" height="256px"}
   
-| Attribute | Value      |
-| --------- | ---------- |
-| class     | wizard     |
-| Race      | Astral elf |
-| Gender    | female     |
-| Age       | ?          |
-| Height    | ?          |
-| Weight    | ?          |
-| Skin      | ?          |
-| Eye       | ?          |
-| Hair      | ?          |
+| Attribute | Value        |
+| --------- | ------------ |
+| class     | wizard       |
+| Race      | Astral elf   |
+| Gender    | female       |
+| Age       | ?            |
+| Height    | tall         |
+| Weight    | slim         |
+| Skin      | fair         |
+| Eye       | hazel        |
+| Hair      | dirty blonde |
   
 ### Alignment
   
 | X       | Lawful | Neutral | Chaotic |
 | ------- | ------ | ------- | ------- |
-| Good    |        |         |
+| Good    | ?      |         |         |
 | Neutral |        |         |         |
 | Evil    |        |         |         |
   
@@ -436,12 +448,12 @@ Armor Class ?
   
 | Name         | Proficiency | Modifier |
 | ------------ | ----------- | -------- |
-| STRength     | ?           | ?       |
-| DEXterity    | ?          | ?        |
-| CONstitution | ?          | ?        |
-| INTelegance  | ?          | ?        |
-| WISdom       | ?          | ?        |
-| CHArisma     | ?          | ?        |
+| STRength     | ?           | ?        |
+| DEXterity    | ?           | ?        |
+| CONstitution | ?           | ?        |
+| INTelegance  | ?           | ?        |
+| WISdom       | ?           | ?        |
+| CHArisma     | ?           | ?        |
   
 Proficiency bonus +?
   
@@ -457,26 +469,27 @@ Proficiency bonus +?
   
   
 ## Burnhard Edward Toast
+  
 imp called Mr. Nesbit
 ![mugshot](party/burnhard/burnhard.jpeg "Burnhard"){width="256px" height="256px"}
   
-| Attribute | Value     |
-| --------- | --------- |
-| class     | warlock?  |
-| Race      | half elf? |
-| Gender    | Male      |
-| Age       | ?         |
-| Height    | ?         |
-| Weight    | ?         |
-| Skin      | ?         |
-| Eye       | ?         |
-| Hair      | ?         |
+| Attribute | Value        |
+| --------- | ------------ |
+| class     | warlock?     |
+| Race      | half elf?    |
+| Gender    | Male         |
+| Age       | Mature       |
+| Height    | tall         |
+| Weight    | slim         |
+| Skin      | tan          |
+| Eye       | light blue   |
+| Hair      | dirty blonde |
   
 ### Alignment
   
 | X       | Lawful | Neutral | Chaotic |
 | ------- | ------ | ------- | ------- |
-| Good    |        |         |
+| Good    | ?      |         |
 | Neutral |        |         |         |
 | Evil    |        |         |         |
   
@@ -502,12 +515,12 @@ Armor Class ?
   
 | Name         | Proficiency | Modifier |
 | ------------ | ----------- | -------- |
-| STRength     | ?           | ?       |
-| DEXterity    | ?          | ?        |
-| CONstitution | ?          | ?        |
-| INTelegance  | ?          | ?        |
-| WISdom       | ?          | ?        |
-| CHArisma     | ?          | ?        |
+| STRength     | ?           | ?        |
+| DEXterity    | ?           | ?        |
+| CONstitution | ?           | ?        |
+| INTelegance  | ?           | ?        |
+| WISdom       | ?           | ?        |
+| CHArisma     | ?           | ?        |
   
 Proficiency bonus +?
   
@@ -523,6 +536,7 @@ Proficiency bonus +?
   
   
 ## Fireplum
+  
 ![mugshot](party/fireplum/fireplum.jpeg "Fireplum"){width="256px" height="256px"}
   
 | Attribute | Value    |
@@ -530,19 +544,19 @@ Proficiency bonus +?
 | class     | wizard   |
 | Race      | tiefling |
 | Gender    | Male     |
-| Age       | ?        |
-| Height    | ?        |
-| Weight    | ?        |
-| Skin      | ?        |
-| Eye       | ?        |
-| Hair      | ?        |
+| Age       | young    |
+| Height    | medium   |
+| Weight    | slim     |
+| Skin      | red      |
+| Eye       | white    |
+| Hair      | horns    |
   
 ### Alignment
   
 | X       | Lawful | Neutral | Chaotic |
 | ------- | ------ | ------- | ------- |
 | Good    |        |         |
-| Neutral |        |         |         |
+| Neutral |        | ?       |         |
 | Evil    |        |         |         |
   
   
@@ -567,12 +581,12 @@ Armor Class ?
   
 | Name         | Proficiency | Modifier |
 | ------------ | ----------- | -------- |
-| STRength     | ?           | ?       |
-| DEXterity    | ?          | ?        |
-| CONstitution | ?          | ?        |
-| INTelegance  | ?          | ?        |
-| WISdom       | ?          | ?        |
-| CHArisma     | ?          | ?        |
+| STRength     | ?           | ?        |
+| DEXterity    | ?           | ?        |
+| CONstitution | ?           | ?        |
+| INTelegance  | ?           | ?        |
+| WISdom       | ?           | ?        |
+| CHArisma     | ?           | ?        |
   
 Proficiency bonus +?
   
@@ -588,25 +602,26 @@ Proficiency bonus +?
   
   
 ## Cous
+  
 ![mugshot](party/cous/cous.jpeg "Cous"){width="256px" height="256px"}
   
-| Attribute | Value       |
-| --------- | ----------- |
-| class     | Druid       |
-| Race      | Lizard folk |
-| Gender    | Female      |
-| Age       | ?           |
-| Height    | ?           |
-| Weight    | ?           |
-| Skin      | ?           |
-| Eye       | ?           |
-| Hair      | ?           |
+| Attribute | Value        |
+| --------- | ------------ |
+| class     | Druid        |
+| Race      | Lizard folk  |
+| Gender    | Female       |
+| Age       | fully grown? |
+| Height    | tall         |
+| Weight    | ?            |
+| Skin      | green        |
+| Eye       | red          |
+| Hair      | none         |
   
 ### Alignment
   
 | X       | Lawful | Neutral | Chaotic |
 | ------- | ------ | ------- | ------- |
-| Good    |        |         |
+| Good    |        | ?       |
 | Neutral |        |         |         |
 | Evil    |        |         |         |
   
@@ -632,12 +647,12 @@ Armor Class ?
   
 | Name         | Proficiency | Modifier |
 | ------------ | ----------- | -------- |
-| STRength     | ?           | ?       |
-| DEXterity    | ?          | ?        |
-| CONstitution | ?          | ?        |
-| INTelegance  | ?          | ?        |
-| WISdom       | ?          | ?        |
-| CHArisma     | ?          | ?        |
+| STRength     | ?           | ?        |
+| DEXterity    | ?           | ?        |
+| CONstitution | ?           | ?        |
+| INTelegance  | ?           | ?        |
+| WISdom       | ?           | ?        |
+| CHArisma     | ?           | ?        |
   
 Proficiency bonus +?
   
@@ -650,5 +665,24 @@ Proficiency bonus +?
   
   
   
+  
+  
+# Journal
+  
+## home planet
+  
+started the afternoon in tavern which was promptly destroyed but some kind of plant monster, followed Alena star to the dock to board her ship but got ambushed by smaller plant monsters who nearly kill sam but luckily Fireplum help me save him when we arrived at the dock som pirates were stealing Alena's ship so we try to fight our way over but i get downed taking out one of the pirates. i wake up just as the ship is leaving the planet sam is dead but i just about live even if i fell sick to my stomach from being in space fo the first time.
+  
+## first space ship encounter
+  
+sod's law the First ship we encounter is an astral elf slaver who tried to board/capture us but we fend them off taking some crew losses
+  
+## coming across a hulk
+  
+we came across a Nautiloidea hulk that we search one to be attacked by *bear slugs* when leaving we hear a voice calling for help we release them only for them (a creepy tentacle monster) to turn on us. we escape taking some *loot* (medical kits and a large breast plate im holding for Burnhard) with us.
+  
+## we finally reach the rock of BRAAHA
+  
+we dock a the port and disembark Alena tells us to go to the tavern. So we try to find our way there eventually we find the place and i try to sneak in (as the lats tavern i was in got destroyed) but the owner is a beholder who spot's me but is very friendly we talk to an old captain and the owner who give us the lay of the land and the owner recommends his brothers shop.
   
   

@@ -10,3 +10,9 @@
 | CHArisma     | 14          | 2        |
 
 Proficiency bonus +3
+
+Passive wisdom (perception) 16
+Passive wisdom (insight) 11
+Passive intelligence (investigation) 14
+
+Darkvision 120ft.
