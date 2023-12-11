@@ -74,7 +74,7 @@
   - [we finally reach the rock of BRAAHA](#we-finally-reach-the-rock-of-braaha )
 
 
-[party](/party)
+
   
 # Health
   
@@ -400,7 +400,7 @@ Their final job together went wrong, and the old man was gravely wounded. Goda t
   
   
   
-# Party
+# [Party](/dnd/party)
   
   
   
