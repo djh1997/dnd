@@ -72,6 +72,9 @@
   - [first space ship encounter](#first-space-ship-encounter )
   - [coming across a hulk](#coming-across-a-hulk )
   - [we finally reach the rock of BRAAHA](#we-finally-reach-the-rock-of-braaha )
+
+
+[party](/party)
   
 # Health
   
