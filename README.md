@@ -400,7 +400,7 @@ Their final job together went wrong, and the old man was gravely wounded. Goda t
   
   
   
-# [Party](/dnd/party)
+# [Party](/party)
   
   
   
