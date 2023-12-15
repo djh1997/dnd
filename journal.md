@@ -14,4 +14,4 @@ we came across a Nautiloidea hulk that we search one to be attacked by _bear slu
 
 ## Reaching the rock of BRAAHA finally...
 
-we dock a the port and disembark Alena tells us to go to the tavern. So we try to find our way there eventually we find the place and i try to sneak in (as the lats tavern i was in got destroyed) but the owner is a beholder who spot's me but is very friendly we talk to an old captain and the owner who give us the lay of the land and the owner recommends his brothers shop.
+We dock a the port and disembark Alena tells us to go to the tavern/inn. Auren says she need some time to think so goes off to find a bar. So we try to find our way there eventually we find the place and I try to sneak in (as the lats tavern I was in got destroyed) but the owner is a beholder who spot's me but is very friendly we talk to an old captain and the owner who give us the lay of the land and the owner recommends his brothers shop. The next morning we wake and head out to the market to see what we can buy.
