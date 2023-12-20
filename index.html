@@ -1,0 +1,1726 @@
+<!DOCTYPE html><html><head>
+      <title>goda-sheet</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////home/codespace/.vscode-remote/extensions/shd101wyy.markdown-preview-enhanced-0.8.11/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      pre{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;direction:ltr;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;padding:1em;margin:.5em 0;overflow:auto;line-height:1.5;tab-size:4;hyphens:none;color:#839496;background-color:#003b4a!important;border:#006c88;border-radius:3px}pre[class*=language-]{padding:1em}code[class*=language-] .token.cdata,code[class*=language-] .token.comment,code[class*=language-] .token.doctype,code[class*=language-] .token.prolog,pre[class*=language-] .token.cdata,pre[class*=language-] .token.comment,pre[class*=language-] .token.doctype,pre[class*=language-] .token.prolog{color:#586e75;font-style:italic}code[class*=language-] .token.punctuation,pre[class*=language-] .token.punctuation{color:#586e75}code[class*=language-] .namespace,pre[class*=language-] .namespace{opacity:.7}code[class*=language-] .token.property,pre[class*=language-] .token.property{color:#859900}code[class*=language-] .token.boolean,code[class*=language-] .token.function-name,code[class*=language-] .token.number,pre[class*=language-] .token.boolean,pre[class*=language-] .token.function-name,pre[class*=language-] .token.number{color:#d33682}code[class*=language-] .token.tag,pre[class*=language-] .token.tag{color:#268bd2}code[class*=language-] .token.selector,pre[class*=language-] .token.selector{color:#859900}code[class*=language-] .token.attr-name,pre[class*=language-] .token.attr-name{color:#657b83}code[class*=language-] .token.string,pre[class*=language-] .token.string{color:#2aa198}code[class*=language-] .token.char,pre[class*=language-] .token.char{color:#cb4b16}code[class*=language-] .token.builtin,pre[class*=language-] .token.builtin{color:#859900}code[class*=language-] .token.entity,pre[class*=language-] .token.entity{color:#268bd2}code[class*=language-] .token.url,pre[class*=language-] .token.url{color:#586e75}code[class*=language-] .token.atrule,code[class*=language-] .token.attr-value,code[class*=language-] .token.keyword,pre[class*=language-] .token.atrule,pre[class*=language-] .token.attr-value,pre[class*=language-] .token.keyword{color:#859900}code[class*=language-] .token.function,pre[class*=language-] .token.function{color:#268bd2}code[class*=language-] .token.class-name,pre[class*=language-] .token.class-name{color:#268bd2}code[class*=language-] .token.variable,pre[class*=language-] .token.variable{color:#268bd2}code[class*=language-] .token.important,code[class*=language-] .token.regex,pre[class*=language-] .token.important,pre[class*=language-] .token.regex{color:#dc322f}code[class*=language-] .token.bold,code[class*=language-] .token.important,pre[class*=language-] .token.bold,pre[class*=language-] .token.important{font-weight:700}code[class*=language-] .token.italic,pre[class*=language-] .token.italic{font-style:italic}code[class*=language-] .token.entity,pre[class*=language-] .token.entity{cursor:help}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#839496;background-color:#002b36;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#dbe0e1}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#afbabb}html body strong{color:#dbe0e1}html body del{color:#afbabb}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#afbabb;background-color:#004b5f;border-left:4px solid #006c88}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#006c88;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#dbe0e1}html body table td,html body table th{border:1px solid #006c88;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#dbe0e1;background-color:#004b5f;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#006c88;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#dbe0e1;border:1px solid #006c88;border-bottom:2px solid #005469;padding:2px 4px;background-color:#004b5f;border-radius:3px}@media print{html body{background-color:#002b36}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#dbe0e1;page-break-after:avoid}html body blockquote{color:#afbabb}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      <div>
+<h1 id="goda-mccormick">Goda McCormick </h1>
+<p></p><h1 id="health">Health </h1>
+<table>
+<thead>
+<tr>
+<th>Max</th>
+<th>Current</th>
+<th>Temp</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>28</td>
+<td>28</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="armor-class-14">Armor Class 14 </h2>
+<h2 id="death-saves">Death Saves </h2>
+<table>
+<thead>
+<tr>
+<th>Fails</th>
+<th>Saves</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>O</td>
+<td>O</td>
+</tr>
+<tr>
+<td>O</td>
+<td>O</td>
+</tr>
+<tr>
+<td>O</td>
+<td>O</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h1 id="abilities">Abilities </h1>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Proficiency</th>
+<th>Modifier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>STRength</td>
+<td>9</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>DEXterity</td>
+<td>17</td>
+<td>3</td>
+</tr>
+<tr>
+<td>CONstitution</td>
+<td>10</td>
+<td>0</td>
+</tr>
+<tr>
+<td>INTelegance</td>
+<td>17</td>
+<td>3</td>
+</tr>
+<tr>
+<td>WISdom</td>
+<td>11</td>
+<td>0</td>
+</tr>
+<tr>
+<td>CHArisma</td>
+<td>14</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<p>Proficiency bonus +3</p>
+<p>Passive wisdom (perception) 16</p>
+<p>Passive wisdom (insight) 11</p>
+<p>Passive intelligence (investigation) 14</p>
+<p>Dark-vision 120ft.</p>
+<br>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rogue</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Bard</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Race</td>
+<td>Deep gnome</td>
+</tr>
+<tr>
+<td>Background</td>
+<td>Criminal-Spy</td>
+</tr>
+<tr>
+<td>Collage</td>
+<td>Whispers</td>
+</tr>
+<tr>
+<td>Gender</td>
+<td>Male</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>180</td>
+</tr>
+<tr>
+<td>Height</td>
+<td>3'1"</td>
+</tr>
+<tr>
+<td>Weight</td>
+<td>42</td>
+</tr>
+<tr>
+<td>Skin</td>
+<td>Pale</td>
+</tr>
+<tr>
+<td>Eye</td>
+<td>Deep blue</td>
+</tr>
+<tr>
+<td>Hair</td>
+<td>Auburn</td>
+</tr>
+</tbody>
+</table>
+<h2 id="alignment">Alignment </h2>
+<table>
+<thead>
+<tr>
+<th>X</th>
+<th>Lawful</th>
+<th>Neutral</th>
+<th>Chaotic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Good</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Neutral</td>
+<td></td>
+<td></td>
+<td>X</td>
+</tr>
+<tr>
+<td>Evil</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<br>
+<h1 id="skills">Skills </h1>
+<table>
+<thead>
+<tr>
+<th>Proficiency</th>
+<th>Bonus</th>
+<th>Name</th>
+<th>MOD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Half</td>
+<td>4</td>
+<td>Acrobatics</td>
+<td>DEX</td>
+</tr>
+<tr>
+<td>Half</td>
+<td>1</td>
+<td>Animal Handling</td>
+<td>WIS</td>
+</tr>
+<tr>
+<td>Half</td>
+<td>4</td>
+<td>Arcana</td>
+<td>INT</td>
+</tr>
+<tr>
+<td>Half</td>
+<td>0</td>
+<td>Athletics</td>
+<td>STR</td>
+</tr>
+<tr>
+<td>Expert</td>
+<td>8</td>
+<td>Deception</td>
+<td>CHA</td>
+</tr>
+<tr>
+<td>Half</td>
+<td>4</td>
+<td>History</td>
+<td>INT</td>
+</tr>
+<tr>
+<td>Half</td>
+<td>1</td>
+<td>Insight</td>
+<td>WIS</td>
+</tr>
+<tr>
+<td>Proficient</td>
+<td>5</td>
+<td>Intimidation</td>
+<td>CHA</td>
+</tr>
+<tr>
+<td>Half</td>
+<td>4</td>
+<td>Investigation</td>
+<td>INT</td>
+</tr>
+<tr>
+<td>Half</td>
+<td>1</td>
+<td>Medicine</td>
+<td>WIS</td>
+</tr>
+<tr>
+<td>Half</td>
+<td>4</td>
+<td>Nature</td>
+<td>INT</td>
+</tr>
+<tr>
+<td>Expert</td>
+<td>6</td>
+<td>Perception</td>
+<td>WIS</td>
+</tr>
+<tr>
+<td>Half</td>
+<td>3</td>
+<td>Performance</td>
+<td>CHA</td>
+</tr>
+<tr>
+<td>Proficient</td>
+<td>5</td>
+<td>Persuasion</td>
+<td>CHA</td>
+</tr>
+<tr>
+<td>Half</td>
+<td>4</td>
+<td>Religion</td>
+<td>INT</td>
+</tr>
+<tr>
+<td>Expert</td>
+<td>9</td>
+<td>Slight of Hand</td>
+<td>DEX</td>
+</tr>
+<tr>
+<td>Expert</td>
+<td>9</td>
+<td>Stealth</td>
+<td>DEX</td>
+</tr>
+<tr>
+<td>Proficient</td>
+<td>3</td>
+<td>Survival</td>
+<td>WIS</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h1 id="weapons">Weapons </h1>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Hit</th>
+<th>Damage</th>
+<th>Type</th>
+<th>Range</th>
+<th>QTY</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dagger</td>
+<td>+6</td>
+<td>1D4 +3</td>
+<td>Piercing</td>
+<td>20 / 60</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Rapier</td>
+<td>+6</td>
+<td>1D8 +3</td>
+<td>Piercing</td>
+<td>5</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Short bow</td>
+<td>+6</td>
+<td>1D6 +3</td>
+<td>Piercing</td>
+<td>80 / 320</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Fist</td>
+<td>+2</td>
+<td>0</td>
+<td>Bludgeoning</td>
+<td>5</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h1 id="armor">Armor </h1>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Armor class</th>
+<th>Cost</th>
+<th>Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Leather</td>
+<td>11 + DEX</td>
+<td>10</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h1 id="movement">Movement </h1>
+<p>speed 25</p>
+<table>
+<thead>
+<tr>
+<th>weight</th>
+<th>state</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>67</td>
+<td>encumbered</td>
+</tr>
+<tr>
+<td>135</td>
+<td>push/drag/lift</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h1 id="inventory">Inventory </h1>
+<table>
+<thead>
+<tr>
+<th>QTY</th>
+<th>name</th>
+<th>weight(lb.)</th>
+<th>cost(gp)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Signal Whistle</td>
+<td></td>
+<td>0.05</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Signet ring</td>
+<td></td>
+<td>5</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Poison DC10 d4</td>
+<td></td>
+<td>100</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Thieves Tools</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>wood rings</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>twine rings</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td>banjo</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td>flat cap</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td>harmonica</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Leather armor</td>
+<td>10</td>
+<td>10</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Dagger</td>
+<td>2</td>
+<td>4</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Rapier</td>
+<td>2</td>
+<td>25</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Short bow</td>
+<td>2</td>
+<td>25</td>
+</tr>
+</tbody>
+</table>
+<h2 id="quiver">Quiver </h2>
+<p>weigh's 1lb.</p>
+<table>
+<thead>
+<tr>
+<th>QTY</th>
+<th>name</th>
+<th>weight(lb.)</th>
+<th>cost(gp)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16</td>
+<td>Arrows</td>
+<td>0.8</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="bag-of-holding">Bag of Holding </h2>
+<p>weigh's 15lb. can carry 500lb. 64<sup>3</sup>'</p>
+<table>
+<thead>
+<tr>
+<th>QTY</th>
+<th>name</th>
+<th>weight(lb.)</th>
+<th>cost(gp)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4</td>
+<td>10XArrows</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td>0</td>
+<td>Health 10hp</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>0</td>
+<td>Health 20hp</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1000</td>
+<td>Ball bearings</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Crowbar</td>
+<td>5</td>
+<td>2</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Lantern hooded</td>
+<td>2</td>
+<td>5</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Oil (flask)</td>
+<td>2</td>
+<td>0.2</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Little bag of sand</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Magnifying glass</td>
+<td></td>
+<td>100</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Candle</td>
+<td></td>
+<td>0.05</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Paper</td>
+<td></td>
+<td>0.4</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Ink</td>
+<td>1 oz</td>
+<td>10</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Ink Pen</td>
+<td></td>
+<td>0.02</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Caltrops</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Block and tackle</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Grappling hook</td>
+<td>4</td>
+<td>2</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Piton</td>
+<td>2.5</td>
+<td>0.5</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Rope, silk (50ft)</td>
+<td>10</td>
+<td>20</td>
+</tr>
+<tr>
+<td>10</td>
+<td>String 10ft</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Bedroll</td>
+<td>7</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Water skin</td>
+<td>5</td>
+<td>0.2</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Tinder box</td>
+<td>1</td>
+<td>0.5</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Whetstone</td>
+<td>1</td>
+<td>0.01</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h1 id="wallet">Wallet </h1>
+<table>
+<thead>
+<tr>
+<th>money</th>
+<th>amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>copper</td>
+<td>0</td>
+</tr>
+<tr>
+<td>silver</td>
+<td>0</td>
+</tr>
+<tr>
+<td>electrum</td>
+<td>0</td>
+</tr>
+<tr>
+<td>gold</td>
+<td>90</td>
+</tr>
+<tr>
+<td>Platinum</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h1 id="spells">Spells </h1>
+<ul>
+<li>Spell casting class Bard</li>
+<li>Spell casting ability CHA</li>
+<li>Spell save DC 13</li>
+<li>Spell attack bonus +5</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Spell name</th>
+<th>Source</th>
+<th>Time</th>
+<th>Range</th>
+<th>Component</th>
+<th>Duration</th>
+<th>Notes</th>
+<th>Ref</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cantrip</td>
+<td>Mage hand</td>
+<td>Bard</td>
+<td>Action</td>
+<td>30</td>
+<td>V,S</td>
+<td>1 Min</td>
+<td>10 lb max</td>
+<td>256</td>
+</tr>
+<tr>
+<td>Cantrip</td>
+<td>Minor illusion</td>
+<td>Bard</td>
+<td>Action</td>
+<td>30 / 5 cube</td>
+<td>S,Fleece</td>
+<td>1 Min</td>
+<td></td>
+<td>260</td>
+</tr>
+<tr>
+<td>Cantrip</td>
+<td>True strike</td>
+<td>Bard</td>
+<td>Action</td>
+<td>30</td>
+<td>S</td>
+<td>Concentration</td>
+<td>ADV next attack</td>
+<td>284</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Cure wounds</td>
+<td>Bard</td>
+<td>Action</td>
+<td>Touch</td>
+<td>V,S</td>
+<td>Instant</td>
+<td>1D8+CHA</td>
+<td>230</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Healing word</td>
+<td>Bard</td>
+<td>Bonus</td>
+<td>60</td>
+<td>V</td>
+<td>Instant</td>
+<td>1D4+CHA</td>
+<td>250</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Silent image</td>
+<td>Bard</td>
+<td>Action</td>
+<td>60 / 15</td>
+<td>V,S,Fleece</td>
+<td>Concentration &lt;10min</td>
+<td></td>
+<td>276</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Unseen servant</td>
+<td>Bard</td>
+<td>Action</td>
+<td>60</td>
+<td>V,S,String,wood</td>
+<td>1 Hour</td>
+<td>10AC 1HP 2STR</td>
+<td>284</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Feather fall</td>
+<td>Bard</td>
+<td>Action</td>
+<td>60</td>
+<td>V, feather</td>
+<td>1 Min</td>
+<td>5 creatures</td>
+<td>239</td>
+</tr>
+<tr>
+<td>1 svir</td>
+<td>Disguise self</td>
+<td>Bard</td>
+<td>Action</td>
+<td>Self</td>
+<td>V,S</td>
+<td>1 Hour</td>
+<td></td>
+<td>233</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Cure wounds</td>
+<td>Bard</td>
+<td>Action</td>
+<td>Touch</td>
+<td>V,S</td>
+<td>Instant</td>
+<td>2D8+CHA</td>
+<td>230</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Healing word</td>
+<td>Bard</td>
+<td>Bonus</td>
+<td>60</td>
+<td>V</td>
+<td>Instant</td>
+<td>2D4+CHA</td>
+<td>250</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Silence</td>
+<td>Bard</td>
+<td>Action</td>
+<td>120 / 20 sph</td>
+<td>V,S</td>
+<td>Concentration &lt;10min</td>
+<td></td>
+<td>275</td>
+</tr>
+<tr>
+<td>2 svir</td>
+<td>blind/deafness</td>
+<td>Bard</td>
+<td>Action</td>
+<td>30</td>
+<td>V</td>
+<td>1 Min</td>
+<td>Con 14 save</td>
+<td>219</td>
+</tr>
+<tr>
+<td>2 svir</td>
+<td>Blur</td>
+<td>Bard</td>
+<td>Action</td>
+<td>Self</td>
+<td>V</td>
+<td>Concentration &lt;1min</td>
+<td></td>
+<td>219</td>
+</tr>
+<tr>
+<td>3 svir</td>
+<td>Nondetection</td>
+<td>Bard</td>
+<td>Action</td>
+<td>Touch</td>
+<td>V,S, no M as svir</td>
+<td>8 Hours</td>
+<td>10ft max</td>
+<td>263</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h1 id="class-features">Class Features </h1>
+<h2 id="bard-features-phb-pg52">Bard Features PHB, pg.52 </h2>
+<h3 id="spellcasting-phb-pg-52">Spellcasting PHB, pg. 52 </h3>
+<p>You can cast known bard spells using CHA as your spellcasting modifier (<strong>Spell DC 13, Spell Attack +5</strong>) and known bard spells as rituals if they have the ritual tag. You can use a musical instrument as a spellcasting focus.</p>
+<h3 id="bardic-inspiration-phb-pg-53">Bardic Inspiration PHB, pg. 53 </h3>
+<p>As a <strong>bonus action</strong>, a creature (other than you) within <strong>60 ft.</strong> that can hear you gains an inspiration die (<strong>1d6</strong>). For <strong>10</strong> minutes, the creature can add it to one ability check, attack roll, or saving throw. This can be added after seeing the roll, but before knowing the outcome. <strong>2/Long Rest</strong></p>
+<h3 id="jack-of-all-trades-phb-pg-54">Jack of All Trades PHB, pg. 54 </h3>
+<p>You can add half your proficiency bonus, rounded down ( +1 ), to any ability check you make that doesn’t already include it.</p>
+<h3 id="song-of-rest-phb-pg-54">Song of Rest PHB, pg. 54 </h3>
+<p>If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest by spending one or more Hit Dice, each of those creatures regains an extra <strong>1d6</strong> hit points.</p>
+<h3 id="psychic-blades-xge">Psychic blades XGE </h3>
+<p>When you hit a creature with a weapon attack, you can expend one use of your Bardic Inspiration to deal an additional <strong>2d6</strong> psychic damage to that target. Once per round on your turn.</p>
+<h3 id="whispers-of-terror-xge">Whispers of terror XGE </h3>
+<p>If you speak to a humanoid alone for at least <strong>1</strong> minute at the end of the conversation, the target must succeed on a <strong>Wisdom</strong> saving throw against your <strong>spell save DC</strong> or be frightened of you or another creature of your choice. The target is frightened in this way for 1 hour, until it is attacked or damaged, or until it witnesses its allies being attacked or damaged.<br>
+Once per short rest or long rest.</p>
+<h2 id="rogue-features">Rogue Features </h2>
+<h3 id="sneak-attack-phb-pg-96">Sneak Attack PHB, pg. 96 </h3>
+<p>Once per turn, you can deal an extra <strong>2d6</strong> damage to one creature you hit with an attack with a finesse or ranged weapon if you have advantage on the attack roll. You don’t need advantage on the attack roll if another enemy of the target is within 5 ft. of it, that enemy isn’t incapacitated, and you don’t have disadvantage on the attack roll.</p>
+<h3 id="thieves-cant-phb-pg-96">Thieves’ Cant PHB, pg. 96 </h3>
+<p>You have learned thieves’ cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. It takes <strong>four times longer</strong> to convey such a message than it does to speak the same idea plainly.</p>
+<h3 id="cunning-action-phb-pg-96">Cunning Action PHB, pg. 96 </h3>
+<p>You can take a <strong>bonus action</strong> on each of your turns to take the Dash, Disengage, or Hide action.</p>
+<h3 id="fast-hands-phb-pg-97">Fast Hands PHB, pg. 97 </h3>
+<p>You can use the <strong>bonus action</strong> granted by your Cunning Action to make a Sleight of Hand check, use your thieves’ tools to disarm a trap or open a lock, or take the Use an Object action.</p>
+<h3 id="second-story-work-phb-pg-97">Second-Story Work PHB, pg. 97 </h3>
+<p>Climbing no longer costs you extra movement, and when you make a running jump, the distance you cover increases by <strong>3 ft.</strong>.</p>
+<h1 id="racial-traits">Racial Traits </h1>
+<h3 id="gnome-cunning-br-pg-37">Gnome Cunning BR, pg. 37 </h3>
+<p>You have advantage on all <strong>Intelligence, Wisdom, and Charisma</strong> saving throws against <strong>magic</strong>.</p>
+<h3 id="superior-darkvision-ee">Superior Darkvision EE </h3>
+<p>Your darkvision has a radius of 120 feet.</p>
+<h3 id="stone-camouflage-ee">Stone Camouflage EE </h3>
+<p>You have advantage on Dexterity (Stealth) checks to hide in rocky terrain.</p>
+<h3 id="svirfneblin-magic-ee">Svirfneblin magic EE </h3>
+<p>You can cast nondetection on yourself <strong>at will</strong>, without needing a material component. You can also cast each of the following spells once with this ability: <strong>blindness/deafness, blur, and disguise self</strong>. You regain the ability to cast these spells when you finish a <strong>long rest</strong>.<br>
+Intelligence is your spellcasting ability for these spells, and you cast them at their lowest possible levels.</p>
+<h1 id="traits">Traits </h1>
+<h2 id="personality">Personality </h2>
+<p>I am always calm since I don’t pay attention to the risks in a situation. Never tell me the odds as ill always take them.</p>
+<h2 id="ideals">Ideals </h2>
+<p>Freedom. Chains are meant to be broken, as are those who would forge them. (Chaotic)</p>
+<h2 id="bonds">Bonds </h2>
+<p>I’m trying to pay off an old debt I owe to a generous benefactor.</p>
+<h2 id="flaws">Flaws </h2>
+<p>If there’s a plan, I’ll forget it. If I don’t forget it, I’ll ignore it.</p>
+<br>
+<h1 id="appearance">Appearance </h1>
+<p><img src="goda/goda.jpeg" alt="mug shot" title="Goda McCormick"></p>
+<p>The short gnome was a striking figure, with his pale complexion and deep blue eyes that seemed to sparkle even in the dimmest light. His dark auburn hair was usually kept short and tidy, framing his face in a way that drew attention to his stunning eyes.</p>
+<p>He was often seen wearing dark glasses, which he used to hide his glass eye, a constant reminder of the danger and violence he had left behind. His attire was a mishmash of styles, combining a flat cap with tattered armor and an assassin's hooded robe. It was clear that he had seen some tough times and had been forced to improvise with whatever he had on hand.</p>
+<p>He could often be found busking on street corners and inns to earn his keep</p>
+<br>
+<h1 id="backstory">Backstory </h1>
+<p>As a young rogue, Goda had a rough start in life. Growing up on the streets, he learned early on how to pick pockets and sneak around unnoticed. However, his life of crime came to a halt when he was caught attempting to rob an old man. The old man, who happened to be a retired assassin, saw potential in the young thief and offered him an apprenticeship.</p>
+<p>Goda spent several years learning the art of assassination and thievery under the tutelage of the old man. Despite his criminal past, he found himself drawn to the old man's wisdom and skill, and began to see a life beyond the shadows of thievery and deception.</p>
+<p>Their final job together went wrong, and the old man was gravely wounded. Goda tried to help him escape, but they were separated during their escape. Goda was left with a serious injury - an arrow lodged in his eye. He woke up alone, without the old man or any sign of his whereabouts, and had to make his way out of the</p>
+<p></p>
+<p></p><h1 id="party">Party </h1>
+<p></p><p></p><h2 id="auren">Auren </h2>
+<p><img src="party/auren/auren.jpeg" alt="mugshot" title="Auren"></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td>wizard</td>
+</tr>
+<tr>
+<td>Race</td>
+<td>Astral elf</td>
+</tr>
+<tr>
+<td>Gender</td>
+<td>female</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>?</td>
+</tr>
+<tr>
+<td>Height</td>
+<td>tall</td>
+</tr>
+<tr>
+<td>Weight</td>
+<td>slim</td>
+</tr>
+<tr>
+<td>Skin</td>
+<td>fair</td>
+</tr>
+<tr>
+<td>Eye</td>
+<td>hazel</td>
+</tr>
+<tr>
+<td>Hair</td>
+<td>dirty blonde</td>
+</tr>
+</tbody>
+</table>
+<h3 id="alignment-1">Alignment </h3>
+<table>
+<thead>
+<tr>
+<th>X</th>
+<th>Lawful</th>
+<th>Neutral</th>
+<th>Chaotic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Good</td>
+<td>?</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Neutral</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Evil</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<br>
+<h3 id="health-1">Health </h3>
+<table>
+<thead>
+<tr>
+<th>Max</th>
+<th>Current</th>
+<th>Temp</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>?</td>
+<td>?</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Armor Class ?</p>
+<h4 id="death-saves-1">Death Saves </h4>
+<ul>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+</ul>
+<br>
+<h3 id="abilities-1">Abilities </h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Proficiency</th>
+<th>Modifier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>STRength</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>DEXterity</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>CONstitution</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>INTelegance</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>WISdom</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>CHArisma</td>
+<td>?</td>
+<td>?</td>
+</tr>
+</tbody>
+</table>
+<p>Proficiency bonus +?</p>
+<br>
+<h3 id="inventory-1">Inventory </h3>
+<table>
+<thead>
+<tr>
+<th>QTY</th>
+<th>name</th>
+<th>weight(lb.)</th>
+<th>cost(gp)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<br>
+<p></p><h2 id="burnhard-edward-toast">Burnhard Edward Toast </h2>
+<p>imp called Mr. Nesbit<br>
+<img src="party/burnhard/burnhard.jpeg" alt="mugshot" title="Burnhard"></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td>warlock?</td>
+</tr>
+<tr>
+<td>Race</td>
+<td>half elf?</td>
+</tr>
+<tr>
+<td>Gender</td>
+<td>Male</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>Mature</td>
+</tr>
+<tr>
+<td>Height</td>
+<td>tall</td>
+</tr>
+<tr>
+<td>Weight</td>
+<td>slim</td>
+</tr>
+<tr>
+<td>Skin</td>
+<td>tan</td>
+</tr>
+<tr>
+<td>Eye</td>
+<td>light blue</td>
+</tr>
+<tr>
+<td>Hair</td>
+<td>dirty blonde</td>
+</tr>
+</tbody>
+</table>
+<h3 id="alignment-2">Alignment </h3>
+<table>
+<thead>
+<tr>
+<th>X</th>
+<th>Lawful</th>
+<th>Neutral</th>
+<th>Chaotic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Good</td>
+<td>?</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Neutral</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Evil</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<br>
+<h3 id="health-2">Health </h3>
+<table>
+<thead>
+<tr>
+<th>Max</th>
+<th>Current</th>
+<th>Temp</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>?</td>
+<td>?</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Armor Class ?</p>
+<h4 id="death-saves-2">Death Saves </h4>
+<ul>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+</ul>
+<br>
+<h3 id="abilities-2">Abilities </h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Proficiency</th>
+<th>Modifier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>STRength</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>DEXterity</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>CONstitution</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>INTelegance</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>WISdom</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>CHArisma</td>
+<td>?</td>
+<td>?</td>
+</tr>
+</tbody>
+</table>
+<p>Proficiency bonus +?</p>
+<br>
+<h3 id="inventory-2">Inventory </h3>
+<table>
+<thead>
+<tr>
+<th>QTY</th>
+<th>name</th>
+<th>weight(lb.)</th>
+<th>cost(gp)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<br>
+<p></p><h2 id="fireplum">Fireplum </h2>
+<p><img src="party/fireplum/fireplum.jpeg" alt="mugshot" title="Fireplum"></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td>wizard</td>
+</tr>
+<tr>
+<td>Race</td>
+<td>tiefling</td>
+</tr>
+<tr>
+<td>Gender</td>
+<td>Male</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>young</td>
+</tr>
+<tr>
+<td>Height</td>
+<td>medium</td>
+</tr>
+<tr>
+<td>Weight</td>
+<td>slim</td>
+</tr>
+<tr>
+<td>Skin</td>
+<td>red</td>
+</tr>
+<tr>
+<td>Eye</td>
+<td>white</td>
+</tr>
+<tr>
+<td>Hair</td>
+<td>horns</td>
+</tr>
+</tbody>
+</table>
+<h3 id="alignment-3">Alignment </h3>
+<table>
+<thead>
+<tr>
+<th>X</th>
+<th>Lawful</th>
+<th>Neutral</th>
+<th>Chaotic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Good</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Neutral</td>
+<td></td>
+<td>?</td>
+<td></td>
+</tr>
+<tr>
+<td>Evil</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<br>
+<h3 id="health-3">Health </h3>
+<table>
+<thead>
+<tr>
+<th>Max</th>
+<th>Current</th>
+<th>Temp</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>?</td>
+<td>?</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Armor Class ?</p>
+<h4 id="death-saves-3">Death Saves </h4>
+<ul>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+</ul>
+<br>
+<h3 id="abilities-3">Abilities </h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Proficiency</th>
+<th>Modifier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>STRength</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>DEXterity</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>CONstitution</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>INTelegance</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>WISdom</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>CHArisma</td>
+<td>?</td>
+<td>?</td>
+</tr>
+</tbody>
+</table>
+<p>Proficiency bonus +?</p>
+<br>
+<h3 id="inventory-3">Inventory </h3>
+<table>
+<thead>
+<tr>
+<th>QTY</th>
+<th>name</th>
+<th>weight(lb.)</th>
+<th>cost(gp)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<br>
+<p></p><h2 id="cous">Cous </h2>
+<p><img src="party/cous/cous.jpeg" alt="mugshot" title="Cous"></p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>class</td>
+<td>Druid</td>
+</tr>
+<tr>
+<td>Race</td>
+<td>Lizard folk</td>
+</tr>
+<tr>
+<td>Gender</td>
+<td>Female</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>fully grown?</td>
+</tr>
+<tr>
+<td>Height</td>
+<td>tall</td>
+</tr>
+<tr>
+<td>Weight</td>
+<td>?</td>
+</tr>
+<tr>
+<td>Skin</td>
+<td>green</td>
+</tr>
+<tr>
+<td>Eye</td>
+<td>red</td>
+</tr>
+<tr>
+<td>Hair</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<h3 id="alignment-4">Alignment </h3>
+<table>
+<thead>
+<tr>
+<th>X</th>
+<th>Lawful</th>
+<th>Neutral</th>
+<th>Chaotic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Good</td>
+<td></td>
+<td>?</td>
+<td></td>
+</tr>
+<tr>
+<td>Neutral</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Evil</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<br>
+<h3 id="health-4">Health </h3>
+<table>
+<thead>
+<tr>
+<th>Max</th>
+<th>Current</th>
+<th>Temp</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>?</td>
+<td>?</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Armor Class ?</p>
+<h4 id="death-saves-4">Death Saves </h4>
+<ul>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+<li class="task-list-item">
+<input type="checkbox" class="task-list-item-checkbox"> 
+</li>
+</ul>
+<br>
+<h3 id="abilities-4">Abilities </h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Proficiency</th>
+<th>Modifier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>STRength</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>DEXterity</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>CONstitution</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>INTelegance</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>WISdom</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr>
+<td>CHArisma</td>
+<td>?</td>
+<td>?</td>
+</tr>
+</tbody>
+</table>
+<p>Proficiency bonus +?</p>
+<br>
+<h3 id="inventory-4">Inventory </h3>
+<table>
+<thead>
+<tr>
+<th>QTY</th>
+<th>name</th>
+<th>weight(lb.)</th>
+<th>cost(gp)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p></p>
+<br>
+<h1 id="journal">Journal </h1>
+<h2 id="home-planet">Home planet </h2>
+<p>I started the afternoon in tavern which was promptly destroyed buy some kind of plant monster. Alena Atarkov (a space ship captain) to the dock to board her ship but got ambushed by smaller plant monsters who nearly kill sam but luckily Fireplum help me save him. We arrived at the dock to find pirates  stealing Alena's ship so we try to fight our way over but i get downed taking out one of the pirates. I wake up just as the ship is leaving the planet sam is dead but I just about live even if I fell sick to my stomach from being in space fo the first time.</p>
+<h2 id="first-space-ship-encounter">First space ship encounter </h2>
+<p>Sod's law the First ship we encounter is an astral elf slaver, who tried to board/capture us but we fend them off taking some crew losses and braking one of the balisters.</p>
+<h2 id="coming-across-the-nautiloidea-hulk">Coming across the Nautiloidea hulk </h2>
+<p>we came across a Nautiloidea hulk that we search one to be attacked by <em>bear slugs</em> when leaving we hear a voice calling for help we release them only for them (a creepy tentacle monster) to turn on us. we escape taking some <em>loot</em> (medical kits and a large breast plate im holding for Burnhard) with us.</p>
+<h2 id="reaching-the-rock-of-braaha-finally">Reaching the rock of BRAAHA finally... </h2>
+<p>We dock a the port and disembark Alena tells us to go to the tavern/inn. Auren says she need some time to think so goes off to find a bar. So we try to find our way there eventually we find the place and I try to sneak in (as the lats tavern I was in got destroyed) but the owner is a beholder who spot's me but is very friendly we talk to an old captain and the owner who give us the lay of the land and the owner recommends his brothers shop. The next morning we wake and head out to the market to see what we can buy.</p>
+<p></p>
+</div>
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
