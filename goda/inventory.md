@@ -18,7 +18,7 @@
 
 ## Quiver
 
-weigh's 1lb.
+Weigh's 1lb.
 
 | QTY | name   | weight(lb.) | cost(gp) |
 | --- | ------ | ----------- | -------- |
@@ -26,7 +26,7 @@ weigh's 1lb.
 
 ## Bag of Holding
 
-weigh's 15lb. can carry 500lb. 64^3^'
+Weigh's 15lb. Can carry 500lb or 64^3^'.
 
 | QTY  | name               | weight(lb.) | cost(gp) |
 | ---- | ------------------ | ----------- | -------- |
