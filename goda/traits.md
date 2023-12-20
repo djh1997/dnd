@@ -47,7 +47,7 @@ You can use the **bonus action** granted by your Cunning Action to make a Sleigh
 
 ### Second-Story Work PHB, pg. 97
 
-Climbing no longer costs you extra movement, and when you make a running jump, the distance you cover increases by **3 ft.**.
+Climbing no longer costs you extra movement, and when you make a running jump, the distance you cover increases by **3 ft**.
 
 # Racial Traits
 
