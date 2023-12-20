@@ -1,3 +1,13 @@
+---
+html:
+  embed_local_images: true
+  embed_svg: true
+  offline: true
+  toc: undefined
+  export_on_save:
+  html: true
+---
+
 # Goda McCormick
 
 ![health](/goda/health.md)
