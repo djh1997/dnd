@@ -24,8 +24,88 @@
   .weapon-roll-result {
     white-space: nowrap;
   }
+
+  .ability-check-controls {
+    margin: 0.5rem 0;
+  }
+
+  .ability-check-dc {
+    width: 4rem;
+  }
+
+  .skill-check-controls {
+    margin: 0.5rem 0;
+  }
+
+  .skill-check-dc {
+    width: 4rem;
+  }
 </style><script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function () {
+    var abilityTable = document.querySelector("#abilities + table");
+    if (abilityTable) {
+      var abilityControls = document.createElement("p");
+      abilityControls.className = "ability-check-controls";
+      abilityControls.innerHTML = "Ability check DC <input class=\"ability-check-dc\" type=\"number\" min=\"1\" value=\"10\" aria-label=\"Ability check DC\">";
+      abilityTable.parentNode.insertBefore(abilityControls, abilityTable);
+
+      var abilityDc = abilityControls.querySelector(".ability-check-dc");
+      var abilityHeaders = Array.from(abilityTable.querySelectorAll("thead th")).map(function (header) {
+        return header.textContent.trim().toLowerCase();
+      });
+      var modifierIndex = abilityHeaders.indexOf("modifier");
+      var abilityRollHeader = document.createElement("th");
+      abilityRollHeader.textContent = "Check";
+      abilityTable.querySelector("thead tr").appendChild(abilityRollHeader);
+
+      abilityTable.querySelectorAll("tbody tr").forEach(function (row) {
+        var cells = row.querySelectorAll("td");
+        var abilityName = cells[0].textContent.trim();
+        var modifier = Number(cells[modifierIndex].textContent.trim());
+        var checkCell = document.createElement("td");
+        var checkButton = document.createElement("button");
+        var advantageButton = document.createElement("button");
+        var disadvantageButton = document.createElement("button");
+        var checkResult = document.createElement("span");
+
+        checkButton.type = "button";
+        checkButton.className = "weapon-roll-button";
+        checkButton.textContent = "Check";
+        checkButton.title = "Roll " + abilityName + " ability check";
+        advantageButton.type = "button";
+        advantageButton.className = "weapon-roll-button";
+        advantageButton.textContent = "Adv";
+        advantageButton.title = "Roll " + abilityName + " with advantage";
+        disadvantageButton.type = "button";
+        disadvantageButton.className = "weapon-roll-button";
+        disadvantageButton.textContent = "Dis";
+        disadvantageButton.title = "Roll " + abilityName + " with disadvantage";
+        checkResult.className = "weapon-roll-result";
+
+        function rollAbilityCheck(mode) {
+          var firstRoll = Math.floor(Math.random() * 20) + 1;
+          var secondRoll = mode === "normal" ? firstRoll : Math.floor(Math.random() * 20) + 1;
+          var roll = mode === "advantage" ? Math.max(firstRoll, secondRoll) : mode === "disadvantage" ? Math.min(firstRoll, secondRoll) : firstRoll;
+          var total = roll + modifier;
+          var dc = Number(abilityDc.value);
+          var outcome = total >= dc ? "PASS" : "FAIL";
+          var rolls = mode === "normal" ? String(roll) : firstRoll + "/" + secondRoll;
+          checkResult.textContent = " " + rolls + " " + (modifier >= 0 ? "+" : "") + modifier + " = " + total + " (" + outcome + ")";
+        }
+
+        checkButton.addEventListener("click", function () { rollAbilityCheck("normal"); });
+        advantageButton.addEventListener("click", function () { rollAbilityCheck("advantage"); });
+        disadvantageButton.addEventListener("click", function () { rollAbilityCheck("disadvantage"); });
+
+        checkCell.appendChild(checkButton);
+        checkCell.appendChild(advantageButton);
+        checkCell.appendChild(disadvantageButton);
+        checkCell.appendChild(checkResult);
+        row.appendChild(checkCell);
+      });
+    }
+
+    var skillDc;
     document.querySelectorAll("table").forEach(function (table) {
       var headers = Array.from(table.querySelectorAll("thead th")).map(function (header) {
         return header.textContent.trim().toLowerCase();
@@ -38,6 +118,15 @@
         return;
       }
 
+      var isSkillTable = bonusIndex !== -1;
+      if (isSkillTable && !skillDc) {
+        var skillControls = document.createElement("p");
+        skillControls.className = "skill-check-controls";
+        skillControls.innerHTML = "Skill check DC <input class=\"skill-check-dc\" type=\"number\" min=\"1\" value=\"10\" aria-label=\"Skill check DC\">";
+        table.parentNode.insertBefore(skillControls, table);
+        skillDc = skillControls.querySelector(".skill-check-dc");
+      }
+
       var rollHeader = document.createElement("th");
       rollHeader.textContent = "Roll";
       table.querySelector("thead tr").appendChild(rollHeader);
@@ -48,7 +137,7 @@
         var rollCell = document.createElement("td");
         var button = document.createElement("button");
         var result = document.createElement("span");
-        var isSkill = bonusIndex !== -1;
+        var isSkill = isSkillTable;
         var dice = isSkill ? ["", "1", "20", "+", cells[bonusIndex].textContent.trim()] : cells[damageIndex].textContent.trim().match(/^([0-9]+)\s*[dD]\s*([0-9]+)(?:\s*([+-])\s*([0-9]+))?$/);
 
         button.type = "button";
@@ -58,20 +147,53 @@
         button.title = isSkill ? "Roll " + name + " skill check" : (dice ? "Roll " + name + " damage" : name + " has no damage die");
         result.className = "weapon-roll-result";
 
-        button.addEventListener("click", function () {
-          var count = Number(dice[1]);
-          var sides = Number(dice[2]);
-          var modifier = dice[4] ? Number(dice[4]) * (dice[3] === "-" ? -1 : 1) : 0;
-          var total = modifier;
+        if (isSkill) {
+          var skillModifier = Number(dice[4]);
+          var advantageButton = document.createElement("button");
+          var disadvantageButton = document.createElement("button");
 
-          for (var die = 0; die < count; die += 1) {
-            total += Math.floor(Math.random() * sides) + 1;
+          advantageButton.type = "button";
+          advantageButton.className = "weapon-roll-button";
+          advantageButton.textContent = "Adv";
+          advantageButton.title = "Roll " + name + " with advantage";
+          disadvantageButton.type = "button";
+          disadvantageButton.className = "weapon-roll-button";
+          disadvantageButton.textContent = "Dis";
+          disadvantageButton.title = "Roll " + name + " with disadvantage";
+
+          function rollSkillCheck(mode) {
+            var firstRoll = Math.floor(Math.random() * 20) + 1;
+            var secondRoll = mode === "normal" ? firstRoll : Math.floor(Math.random() * 20) + 1;
+            var roll = mode === "advantage" ? Math.max(firstRoll, secondRoll) : mode === "disadvantage" ? Math.min(firstRoll, secondRoll) : firstRoll;
+            var total = roll + skillModifier;
+            var dc = Number(skillDc.value);
+            var outcome = total >= dc ? "PASS" : "FAIL";
+            var rolls = mode === "normal" ? String(roll) : firstRoll + "/" + secondRoll;
+            result.textContent = " " + rolls + " " + (skillModifier >= 0 ? "+" : "") + skillModifier + " = " + total + " (" + outcome + ")";
           }
 
-          result.textContent = total + (isSkill ? " check" : " damage");
-        });
+          button.addEventListener("click", function () { rollSkillCheck("normal"); });
+          advantageButton.addEventListener("click", function () { rollSkillCheck("advantage"); });
+          disadvantageButton.addEventListener("click", function () { rollSkillCheck("disadvantage"); });
+          rollCell.appendChild(button);
+          rollCell.appendChild(advantageButton);
+          rollCell.appendChild(disadvantageButton);
+        } else {
+          button.addEventListener("click", function () {
+            var count = Number(dice[1]);
+            var sides = Number(dice[2]);
+            var modifier = dice[4] ? Number(dice[4]) * (dice[3] === "-" ? -1 : 1) : 0;
+            var total = modifier;
 
-        rollCell.appendChild(button);
+            for (var die = 0; die < count; die += 1) {
+              total += Math.floor(Math.random() * sides) + 1;
+            }
+
+            result.textContent = total + " damage";
+          });
+          rollCell.appendChild(button);
+        }
+
         rollCell.appendChild(result);
         row.appendChild(rollCell);
       });
