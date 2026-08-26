@@ -15,9 +15,67 @@
 /*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
 
       </style>
-      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+      <!-- The content below will be included at the end of the <head> element. --><style>
+  .weapon-roll-button {
+    cursor: pointer;
+    margin-right: 0.4rem;
+  }
+
+  .weapon-roll-result {
+    white-space: nowrap;
+  }
+</style><script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function () {
-    // your code here
+    document.querySelectorAll("table").forEach(function (table) {
+      var headers = Array.from(table.querySelectorAll("thead th")).map(function (header) {
+        return header.textContent.trim().toLowerCase();
+      });
+      var nameIndex = headers.indexOf("name");
+      var damageIndex = headers.indexOf("damage");
+      var bonusIndex = headers.indexOf("bonus");
+
+      if (nameIndex === -1 || (damageIndex === -1 && bonusIndex === -1)) {
+        return;
+      }
+
+      var rollHeader = document.createElement("th");
+      rollHeader.textContent = "Roll";
+      table.querySelector("thead tr").appendChild(rollHeader);
+
+      table.querySelectorAll("tbody tr").forEach(function (row) {
+        var cells = row.querySelectorAll("td");
+        var name = cells[nameIndex].textContent.trim();
+        var rollCell = document.createElement("td");
+        var button = document.createElement("button");
+        var result = document.createElement("span");
+        var isSkill = bonusIndex !== -1;
+        var dice = isSkill ? ["", "1", "20", "+", cells[bonusIndex].textContent.trim()] : cells[damageIndex].textContent.trim().match(/^([0-9]+)\s*[dD]\s*([0-9]+)(?:\s*([+-])\s*([0-9]+))?$/);
+
+        button.type = "button";
+        button.className = "weapon-roll-button";
+        button.textContent = isSkill || dice ? (isSkill ? "Check" : "Roll") : "No roll";
+        button.disabled = !isSkill && !dice;
+        button.title = isSkill ? "Roll " + name + " skill check" : (dice ? "Roll " + name + " damage" : name + " has no damage die");
+        result.className = "weapon-roll-result";
+
+        button.addEventListener("click", function () {
+          var count = Number(dice[1]);
+          var sides = Number(dice[2]);
+          var modifier = dice[4] ? Number(dice[4]) * (dice[3] === "-" ? -1 : 1) : 0;
+          var total = modifier;
+
+          for (var die = 0; die < count; die += 1) {
+            total += Math.floor(Math.random() * sides) + 1;
+          }
+
+          result.textContent = total + (isSkill ? " check" : " damage");
+        });
+
+        rollCell.appendChild(button);
+        rollCell.appendChild(result);
+        row.appendChild(rollCell);
+      });
+    });
   });
 </script></head><body for="html-export">
     
