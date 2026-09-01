@@ -106,6 +106,30 @@
     }
 
     var skillDc;
+    var proficiencyBonus = 0;
+    var dexModifier = 0;
+    var profText = Array.from(document.querySelectorAll("p")).find(function (p) {
+      return p.textContent.includes("Proficiency bonus");
+    });
+    if (profText) {
+      var profMatch = profText.textContent.match(/Proficiency bonus ([+-]?\d+)/);
+      if (profMatch) {
+        proficiencyBonus = Number(profMatch[1]);
+      }
+    }
+    if (abilityTable) {
+      var abilityRows = abilityTable.querySelectorAll("tbody tr");
+      if (abilityRows.length > 1) {
+        var dexRow = abilityRows[1];
+        var modIndex = Array.from(abilityTable.querySelectorAll("thead th")).indexOf(Array.from(abilityTable.querySelectorAll("thead th")).find(function (th) {
+          return th.textContent.trim().toLowerCase() === "modifier";
+        }));
+        if (modIndex !== -1) {
+          dexModifier = Number(dexRow.querySelectorAll("td")[modIndex].textContent.trim());
+        }
+      }
+    }
+
     document.querySelectorAll("table").forEach(function (table) {
       var headers = Array.from(table.querySelectorAll("thead th")).map(function (header) {
         return header.textContent.trim().toLowerCase();
@@ -198,6 +222,30 @@
         row.appendChild(rollCell);
       });
     });
+
+    var weaponsHeading = document.querySelector("#weapons");
+    if (weaponsHeading) {
+      var attackControls = document.createElement("p");
+      attackControls.className = "attack-controls";
+      var attackButton = document.createElement("button");
+      var attackResult = document.createElement("span");
+
+      attackButton.type = "button";
+      attackButton.className = "weapon-roll-button";
+      attackButton.textContent = "Attack";
+      attackButton.title = "Roll attack with d20 + proficiency + DEX";
+      attackResult.className = "weapon-roll-result";
+
+      attackButton.addEventListener("click", function () {
+        var roll = Math.floor(Math.random() * 20) + 1;
+        var total = roll + proficiencyBonus + dexModifier;
+        attackResult.textContent = " d20: " + roll + " + " + proficiencyBonus + " + " + dexModifier + " = " + total;
+      });
+
+      attackControls.appendChild(attackButton);
+      attackControls.appendChild(attackResult);
+      weaponsHeading.parentNode.insertBefore(attackControls, weaponsHeading.nextSibling);
+    }
   });
 </script></head><body for="html-export">
     
